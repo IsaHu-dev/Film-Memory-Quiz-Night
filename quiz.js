@@ -1,19 +1,16 @@
-// quiz.js
-
-// Select elements from the DOM
+// Assuming questions.js is loaded before quiz.js
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
-let currentQuestionIndex = 0;  // Index of current question
-let score = 0;  // User's score
+let currentQuestionIndex = 0;
+let score = 0;
 
-// Start the quiz
 function startQuiz() {
-    currentQuestionIndex = 0;  // Reset to first question
-    score = 0;  // Reset score
-    nextButton.innerHTML = "Next";  // Set initial button text
-    showQuestion();  // Display the first question
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
 }
 
 function showQuestion() {
@@ -34,7 +31,6 @@ function showQuestion() {
     });
 }
 
-// Clear previous answers
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild) {
@@ -60,14 +56,6 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-function handleNextButton() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
-    } else {
-        showScore();
-    }
-}
 function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
