@@ -15,13 +15,27 @@ function startQuiz() {
     nextButton.innerHTML = "Next";  // Set initial button text
     showQuestion();  // Display the first question
 }
-function showQuestion() {
 
+function showQuestion() {
+    resetState();
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+    currentQuestion.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
+        if (answer.correct) {
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectAnswer);
+    });
+}
 
 // Clear previous answers
 function resetState() {
-
-
 
 
 function selectAnswer(e) {
