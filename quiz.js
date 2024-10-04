@@ -1,12 +1,13 @@
-// Assuming questions.js is loaded before quiz.js
+// Grabbing elements from the DOM (HTML document)
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-const resultContainer = document.getElementById("result-container"); // The container that holds the result (percentage and score)
-const percentageElement = document.getElementById("percentage"); // Element to display percentage score
-const finalScoreElement = document.getElementById("final-score"); // Element to display final score text
-const retryButton = document.getElementById("retry-btn"); // "Go Again" button for restarting the quiz
-const homeButton = document.getElementById("home-btn"); // Button to redirect to the home page
+const resultContainer = document.getElementById("result-container");
+const percentageElement = document.getElementById("percentage");
+const finalScoreElement = document.getElementById("final-score");
+const retryButton = document.getElementById("retry-btn");
+const homeButton = document.getElementById("home-btn");
+const answerImage = document.getElementById("answer-image"); // Image placeholder
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -14,10 +15,11 @@ let score = 0;
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
+    answerImage.style.display = "none"; // Hide image initially
     nextButton.innerHTML = "Next";
     showQuestion();
 }
-// Function to display the current question and answer choices
+
 function showQuestion() {
     resetState(); // Reset the state to clear previous answers
     let currentQuestion = questions[currentQuestionIndex]; // Get the current question
@@ -32,26 +34,30 @@ function showQuestion() {
         answerButtons.appendChild(button); // Add the button to the answer-buttons container
         if (answer.correct) {
             button.dataset.correct = answer.correct; // Add a data attribute to mark the correct answer
+            button.dataset.image = currentQuestion.image; // Add the correct image
         }
         button.addEventListener("click", selectAnswer); // Add an event listener to handle the answer selection
     });
 }
 
-// Function to reset the state for the next question
 function resetState() {
     nextButton.style.display = "none"; // Hide the "Next" button until an answer is selected
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild); // Remove any answer buttons from the previous question
     }
+    answerImage.style.display = "none"; // Hide the image when moving to the next question
 }
 
-// Function to handle the answer selection
 function selectAnswer(e) {
     const selectedBtn = e.target; // Get the button that was clicked
     const isCorrect = selectedBtn.dataset.correct === "true"; // Check if the selected answer is correct
     if (isCorrect) {
         selectedBtn.classList.add("correct"); // Add the "correct" class to highlight the correct answer
         score++; // Increment the score if the answer is correct
+
+        // Display the corresponding image if the answer is correct
+        answerImage.src = selectedBtn.dataset.image;
+        answerImage.style.display = "block";
     } else {
         selectedBtn.classList.add("incorrect"); // Add the "incorrect" class to highlight the wrong answer
     }
@@ -65,7 +71,6 @@ function selectAnswer(e) {
     nextButton.style.display = "block"; // Show the "Next" button after an answer is selected
 }
 
-// Function to display the score at the end of the quiz
 function showScore() {
     questionElement.parentElement.style.display = "none"; // Hide the question and answer section
     resultContainer.style.display = "flex"; // Show the result container
@@ -76,7 +81,6 @@ function showScore() {
     finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`; // Display the final score
 }
 
-// Function to handle the "Next" button click
 function handleNextButton() {
     currentQuestionIndex++; // Move to the next question
     if (currentQuestionIndex < questions.length) {
@@ -86,15 +90,12 @@ function handleNextButton() {
     }
 }
 
-// Event listener for the "Next" button click
 nextButton.addEventListener("click", () => {
     handleNextButton(); // Call the function to move to the next question or show the score
 });
 
-// Event listener for the "Home" button to go back to the homepage
 homeButton.addEventListener("click", () => {
     window.location.href = "index.html"; // Redirect to the home page (adjust this URL as needed)
 });
 
-// Start the quiz immediately when the page loads
 startQuiz();
