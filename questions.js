@@ -6,7 +6,8 @@ const questions = [
             { text: "The Shawshank Redemption", correct: false },
             { text: "Forrest Gump", correct: true },
             { text: "The Lion King", correct: false },
-        ]
+        ],
+        image: "images/forestgump.png" 
     },
     {
         question: "Who played the character of Jack Dawson in the 1997 film Titanic?",
@@ -15,8 +16,8 @@ const questions = [
             { text: "Brad Pitt", correct: false },
             { text: "Tom Cruise", correct: false },
             { text: "Johnny Depp", correct: false },
-        ]
-    },
+        ],
+        image: "images/leonardodicaprio.jpg" 
     {
         question: "Which director is known for the movies 'Inception', 'The Dark Knight', and 'Interstellar'?",
         answers: [
@@ -24,7 +25,8 @@ const questions = [
             { text: "Steven Spielberg", correct: false },
             { text: "Martin Scorsese", correct: false },
             { text: "Quentin Tarantino", correct: false },
-        ]
+        ],
+        image: "images/dummy.png" 
     },
     {
         question: "In which movie does the quote 'May the Force be with you' appear?",
@@ -33,7 +35,8 @@ const questions = [
             { text: "The Lord of the Rings", correct: false },
             { text: "Harry Potter", correct: false },
             { text: "Star Wars", correct: true },
-        ]
+        ],
+        image: "images/dummy.png"
     },
     {
         question: "Which actress played the role of Katniss Everdeen in 'The Hunger Games' series?",
@@ -42,8 +45,8 @@ const questions = [
             { text: "Scarlett Johansson", correct: false },
             { text: "Anne Hathaway", correct: false },
             { text: "Jennifer Lawrence", correct: true },
-        ]
-    },
+        ],
+        image: "images/mockingjay.png" 
     {
         question: "Which 1994 film featured the song 'Hakuna Matata'?",
         answers: [
@@ -51,8 +54,7 @@ const questions = [
             { text: "Aladdin", correct: false },
             { text: "Beauty and the Beast", correct: false },
             { text: "Pocahontas", correct: false },
-        ]
-    },
-
-
+        ],
+        image: "images/dummy.png" 
+    }
 ];
