@@ -140,7 +140,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-#retry-btn, #home-btn {
+#home-btn {
   background: #ff007f;
   color: #fff;
   border: none;
@@ -151,6 +151,6 @@ h1 {
   cursor: pointer;
 }
 
-#retry-btn:hover, #home-btn:hover {
+#home-btn:hover {
   background: #d9006e;
 }
