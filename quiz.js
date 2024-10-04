@@ -2,6 +2,8 @@
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const resultContainer = document.getElementById("result-container"); // The container that holds the result (percentage and score)
+const percentageElement = document.getElementById("percentage"); // Element to display percentage score
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -56,19 +58,24 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+// Function to display the score at the end of the quiz
 function showScore() {
-    resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again";
-    nextButton.style.display = "block";
+    questionElement.parentElement.style.display = "none"; // Hide the question and answer section
+    resultContainer.style.display = "flex"; // Show the result container
+
+    // Calculate and display the score percentage
+    const scorePercent = Math.round((score / questions.length) * 100); // Calculate percentage score
+    percentageElement.innerHTML = `${scorePercent}%`; // Display the percentage score
+    finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`; // Display the final score
 }
 
+// Function to handle the "Next" button click
 function handleNextButton() {
-    currentQuestionIndex++;
+    currentQuestionIndex++; // Move to the next question
     if (currentQuestionIndex < questions.length) {
-        showQuestion();
+        showQuestion(); // If there are more questions, show the next question
     } else {
-        showScore();
+        showScore(); // If no more questions, show the final score
     }
 }
 
