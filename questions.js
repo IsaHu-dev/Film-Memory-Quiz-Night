@@ -7,7 +7,7 @@ const questions = [
             { text: "Forrest Gump", correct: true },
             { text: "The Lion King", correct: false },
         ],
-        image: "images/forestgump.png" 
+        image: "images/forestgump.png" // Image corresponding to Forrest Gump
     },
     {
         question: "Who played the character of Jack Dawson in the 1997 film Titanic?",
@@ -17,7 +17,8 @@ const questions = [
             { text: "Tom Cruise", correct: false },
             { text: "Johnny Depp", correct: false },
         ],
-        image: "images/leonardodicaprio.jpg" 
+        image: "images/leonardodicaprio.jpg" // Image corresponding to Leonardo DiCaprio (Titanic)
+    },
     {
         question: "Which director is known for the movies 'Inception', 'The Dark Knight', and 'Interstellar'?",
         answers: [
@@ -36,7 +37,7 @@ const questions = [
             { text: "Harry Potter", correct: false },
             { text: "Star Wars", correct: true },
         ],
-        image: "images/dummy.png"
+        image: "images/dummy.png" 
     },
     {
         question: "Which actress played the role of Katniss Everdeen in 'The Hunger Games' series?",
@@ -47,6 +48,7 @@ const questions = [
             { text: "Jennifer Lawrence", correct: true },
         ],
         image: "images/mockingjay.png" 
+    },
     {
         question: "Which 1994 film featured the song 'Hakuna Matata'?",
         answers: [
