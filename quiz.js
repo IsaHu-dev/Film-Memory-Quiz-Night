@@ -1,24 +1,22 @@
+// Assuming questions.js is loaded before quiz.js
 const questionElement = document.getElementById("question");
-const answerButtons = document.getElementById("answer-buttons"); 
-const nextButton = document.getElementById("next-btn"); 
-const resultContainer = document.getElementById("result-container");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
+const resultContainer = document.getElementById("result-container"); // The container that holds the result (percentage and score)
 const percentageElement = document.getElementById("percentage"); // Element to display percentage score
 const finalScoreElement = document.getElementById("final-score"); // Element to display final score text
 const retryButton = document.getElementById("retry-btn"); // "Go Again" button for restarting the quiz
 const homeButton = document.getElementById("home-btn"); // Button to redirect to the home page
 
-// Variables to keep track of the current question and the score
-let currentQuestionIndex = 0; // Tracks which question we are on
-let score = 0; // Tracks the player's score
+let currentQuestionIndex = 0;
+let score = 0;
 
-// Function to start the quiz
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
-
 // Function to display the current question and answer choices
 function showQuestion() {
     resetState(); // Reset the state to clear previous answers
@@ -91,11 +89,6 @@ function handleNextButton() {
 // Event listener for the "Next" button click
 nextButton.addEventListener("click", () => {
     handleNextButton(); // Call the function to move to the next question or show the score
-});
-
-// Event listener for the "Retry" button to restart the quiz
-retryButton.addEventListener("click", () => {
-    startQuiz(); // Restart the quiz when "Retry" is clicked
 });
 
 // Event listener for the "Home" button to go back to the homepage
