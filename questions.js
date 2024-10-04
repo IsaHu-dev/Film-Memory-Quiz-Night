@@ -57,6 +57,6 @@ const questions = [
             { text: "Beauty and the Beast", correct: false },
             { text: "Pocahontas", correct: false },
         ],
-        image: "images/dummy.png" 
+        image: "images/lionking.png" 
     }
 ];
