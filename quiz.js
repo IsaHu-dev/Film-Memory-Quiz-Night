@@ -4,6 +4,12 @@ const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const resultContainer = document.getElementById("result-container"); // The container that holds the result (percentage and score)
 const percentageElement = document.getElementById("percentage"); // Element to display percentage score
+const finalScoreElement = document.getElementById("final-score"); // Element to display final score text
+const retryButton = document.getElementById("retry-btn"); // "Go Again" button for restarting the quiz
+const homeButton = document.getElementById("home-btn"); // Button to redirect to the home page
+
+let questionNo = currentQuestionIndex + 1;
+
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -58,33 +64,38 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-// Function to display the score at the end of the quiz
 function showScore() {
-    questionElement.parentElement.style.display = "none"; // Hide the question and answer section
-    resultContainer.style.display = "flex"; // Show the result container
+    questionElement.parentElement.style.display = "none";
+    resultContainer.style.display = "flex";
 
-    // Calculate and display the score percentage
-    const scorePercent = Math.round((score / questions.length) * 100); // Calculate percentage score
-    percentageElement.innerHTML = `${scorePercent}%`; // Display the percentage score
-    finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`; // Display the final score
+    const scorePercent = Math.round((score / questions.length) * 100);
+    percentageElement.innerHTML = `${scorePercent}%`;
+    finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`;
 }
 
-// Function to handle the "Next" button click
 function handleNextButton() {
-    currentQuestionIndex++; // Move to the next question
+    currentQuestionIndex++; 
     if (currentQuestionIndex < questions.length) {
-        showQuestion(); // If there are more questions, show the next question
+        showQuestion(); 
     } else {
-        showScore(); // If no more questions, show the final score
+        showScore(); 
     }
 }
+
 
 nextButton.addEventListener("click", () => {
-    if (currentQuestionIndex < questions.length) {
-        handleNextButton();
-    } else {
-        startQuiz();
-    }
+    handleNextButton(); 
 });
+
+
+retryButton.addEventListener("click", () => {
+    startQuiz(); 
+});
+
+
+homeButton.addEventListener("click", () => {
+    window.location.href = "index.html"; 
+});
+
 
 startQuiz();
