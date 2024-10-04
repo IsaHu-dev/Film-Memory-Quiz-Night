@@ -53,6 +53,6 @@ const questions = [
             { text: "Pocahontas", correct: false },
         ]
     },
-    {
-    }  
+
+
 ];
