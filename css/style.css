@@ -44,9 +44,9 @@ h1 {
 
 #question {
   width: 100%;
-  text-align: left;
+  justify-content: left;
   color: #cccccc; /* Light grey color */
-  font-size: 28px;
+  font-size: 26px;
   margin-bottom: 40px;
 }
 
@@ -96,13 +96,19 @@ h1 {
   text-align: center;
 }
 
+#next-btn:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff; /* White border on hover */
+}
+
 .correct {
   background: #00b64f;
 }
 
 .incorrect {
-  background: hsl(337, 100%, 41%);
+  background:  hsl(337, 100%, 43%);
 }
+
 /* Result Section */
 .result-container {
   display: flex;
@@ -129,12 +135,12 @@ h1 {
   margin: 20px 0;
 }
 
-#percentage {
+.percentage {
   font-size: 36px;
   color: #fff;
 }
 
-#final-score {
+.final-score {
   font-size: 20px;
   color: #fff;
   margin-bottom: 20px;
