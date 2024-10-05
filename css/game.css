@@ -28,7 +28,6 @@ body {
   height: auto;
 }
 
-/* Position the Restart Button outside of .hero and in the top-left corner of the page */
 .restart-container {
   position: absolute;
   top: 20px;
@@ -36,18 +35,18 @@ body {
 }
 
 #restart-btn {
-  background: #000000;
+  background: #5dbea3;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
   transition: all 0.8s;
   margin-top: 12rem;
-}
 
+}
 #restart-btn:hover {
   color: #ffffff;
   border: 1px solid #ffffff;
