@@ -27,7 +27,7 @@ const questions = [
             { text: "Martin Scorsese", correct: false },
             { text: "Quentin Tarantino", correct: false },
         ],
-        image: "images/batman.png" 
+        image: "images/batman.jpg" 
     },
     {
         question: "In which movie does the quote 'May the Force be with you' appear?",
