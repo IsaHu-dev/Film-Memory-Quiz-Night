@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register to Send Score</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+
+<div class="registration-container">
+  <h1>Register to Send Your Score</h1>
+  
+  <form id="register-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+    <label for="score">Your Score:</label>
+    <input type="text" id="score" name="score" readonly><br><br>
+
+    <label for="percentage">Your Percentage:</label>
+    <input type="text" id="percentage" name="percentage" readonly><br><br>
+    
+    <button type="submit" class="btn">Send My Score</button>
+  </form>
+</div>
+
+<script>
+  // Extract score and percentage from URL and populate the form
+  function getQueryParams() {
+    const params = new URLSearchParams(window.location.search);
+    const score = params.get('score');
+    const percentage = params.get('percentage');
+    
+    document.getElementById('score').value = `Score: ${score}/5`;
+    document.getElementById('percentage').value = `Percentage: ${percentage}`;
+  }
+  
+  // Populate the form when the page loads
+  window.onload = getQueryParams;
+</script>
+
+</body>
+</html>
