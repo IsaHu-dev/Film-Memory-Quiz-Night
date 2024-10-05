@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Memory Quiz Game</title>
+    <link rel="stylesheet" href="css/game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="hero">
+  <h1>Film Memory Quiz</h1>
+  
+  <!-- Image Placeholder -->
+  <div class="image-container">
+    <img id="answer-image" src="images/dummy.png" alt="Answer Image" style="display: none;" />
+  </div>
+  
+  <!-- Quiz Section -->
+  <div class="quiz">
+    <h2 id="question">Question goes here</h2>
+    <div id="answer-buttons">
+      <button class="btn">Choice 1</button>
+      <button class="btn">Choice 2</button>
+      <button class="btn">Choice 3</button>
+      <button class="btn">Choice 4</button>
+    </div>
+    <button id="next-btn">Next</button>
+  </div>
+  
+  <!-- Quiz Result Section -->
+  <div class="result-container" id="result-container" style="display: none;">
+    <h1>Quiz Result!</h1>
+    <div class="circle">
+      <p id="percentage">0%</p>
+    </div>
+    <p id="final-score">Your Score 0 out of 5</p>
+    <button id="home-btn" class="btn">Restart Quiz Game</button>
+  </div>
+</div>
+
+<!-- Load questions.js first -->
+<script src="questions.js"></script>
+<!-- Then load quiz.js to ensure questions are accessible -->
+<script src="quiz.js"></script>
+
+</body>
+</html>
