@@ -83,6 +83,8 @@ function showScore() {
     
     finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`;
     percentageElement.innerHTML = `${scorePercent}%`;
+     // Show the register button
+     document.getElementById('register-btn').style.display = 'block';
 }
 
 function handleNextButton() {
