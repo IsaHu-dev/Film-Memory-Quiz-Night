@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film Memory Quiz Game</title>
     <link rel="stylesheet" href="css/game.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -44,6 +44,7 @@
       <p id="percentage">0%</p>
     </div>
     <p id="final-score">Your Score 0 out of 5</p>
+    <button id="register-btn" class="btn">Register & Send Score</button> <!-- New button added -->
     <button id="home-btn" class="btn">Go Again!</button>
   </div>
 </div>
@@ -57,6 +58,13 @@
   // Function to restart the quiz
   document.getElementById('restart-btn').addEventListener('click', function() {
     window.location.reload();  // Reload the page to restart the quiz
+  });
+
+  // Function to redirect to registration page with score and percentage as query parameters
+  document.getElementById('register-btn').addEventListener('click', function() {
+    const score = document.getElementById('final-score').textContent.match(/\d+/g)[0];
+    const percentage = document.getElementById('percentage').textContent;
+    window.location.href = `register.html?score=${score}&percentage=${percentage}`;
   });
 </script>
 
