@@ -25,7 +25,6 @@ function showQuestion() {
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    // Fix: Wrap parameter in parentheses for JSHint
     currentQuestion.answers.forEach((answer) => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
@@ -45,16 +44,25 @@ function resetState() {
         answerButtons.removeChild(answerButtons.firstChild);
     }
     answerImage.style.display = "none";
+
+    // Reset the title margin if the image is hidden
+    const titleElement = document.querySelector(".hero h1");
+    titleElement.style.marginTop = "0px";
 }
 
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
+    const titleElement = document.querySelector(".hero h1"); // Select the title element
+
     if (isCorrect) {
         selectedBtn.classList.add("correct");
         score++;
         answerImage.src = selectedBtn.dataset.image;
         answerImage.style.display = "block";
+
+        // Film Memory Title  margin-top
+        titleElement.style.marginTop = "100px"; 
     } else {
         selectedBtn.classList.add("incorrect");
     }
@@ -73,9 +81,7 @@ function showScore() {
 
     const scorePercent = Math.round((score / questions.length) * 100);
     
-    // Fix: Line split for JSHint to avoid line longer than 80 characters
-    finalScoreElement.innerHTML = `Your Score ${score} out of ` +
-        `${questions.length}`;
+    finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`;
     percentageElement.innerHTML = `${scorePercent}%`;
 }
 
