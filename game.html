@@ -9,6 +9,12 @@
 </head>
 <body>
 <div class="hero">
+  
+  <!-- Restart Button (Top Left) -->
+  <div class="restart-container">
+    <button id="restart-btn" class="btn">Restart Quiz</button>
+  </div>
+
   <h1>Film Memory Quiz</h1>
   
   <!-- Image Placeholder -->
@@ -43,6 +49,13 @@
 <script src="questions.js"></script>
 <!-- Then load quiz.js to ensure questions are accessible -->
 <script src="quiz.js"></script>
+
+<script>
+  // Function to restart the quiz
+  document.getElementById('restart-btn').addEventListener('click', function() {
+    window.location.reload();  // Reload the page to restart the quiz
+  });
+</script>
 
 </body>
 </html>
