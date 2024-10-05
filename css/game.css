@@ -40,6 +40,10 @@ body {
   padding: 40px;
   text-align: center;
 }
+.register-percentage {
+  font-size: 18px;
+  color: #000000;
+}
 
 label {
   color: #cccccc;
