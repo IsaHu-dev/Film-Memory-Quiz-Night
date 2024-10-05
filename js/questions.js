@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 const questions = [
     {
         question: "Which movie won the Academy Award for Best Picture in 1994?",
