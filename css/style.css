@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -14,20 +15,21 @@ body {
   width: 100%;
 }
 
+/* Intro Section */
 .intro-hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #222;
-  padding: 20px;
-  font-family: 'Nunito', sans-serif;
+  padding: 40px;
   border-radius: 10px;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   height: auto;
 }
 
+/* Title */
 h1 {
   color: #fff;
   text-align: center;
@@ -35,13 +37,21 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* Paragraph Styling */
 p {
   color: #ccc;
-  text-align: center;
+  text-align: left; /* Text aligned to the left */
   font-size: 18px;
   margin-bottom: 30px;
 }
 
+.description {
+  font-size: 20px;
+  line-height: 2rem;
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+/* Button Styling */
 .play-btn {
   background: rgb(236, 57, 146);
   color: white;
@@ -57,63 +67,3 @@ p {
 .play-btn:hover {
   background: rgb(217, 0, 110);
 }
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Nunito', sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background: #181A20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-}
-
-.intro-hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #222;
-  padding: 20px;
-  font-family: "Dancing Script", cursive; /* Updated font-family */
-  border-radius: 10px;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-}
-
-h1 {
-  color: #fff;
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-p {
-  color: #ccc;
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.play-btn {
-  background: rgb(236, 57, 146);
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  margin-top: 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-  transition: all 0.3s;
-}
-
-.play-btn:hover {
-  background: rgb(217, 0, 110);
-}
-  
