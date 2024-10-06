@@ -38,7 +38,7 @@ const questions = [
             { text: "Harry Potter", correct: false },
             { text: "Star Wars", correct: true },
         ],
-        image: "images/dummy.png" 
+        image: "images/starwars.png" 
     },
     {
         question: "Which actress played the role of Katniss Everdeen in 'The Hunger Games' series?",
