@@ -20,7 +20,7 @@ The web app works across all platforms such as your mobile device, laptop and de
   - The quiz includes a handy "Restart Game" button that allows players to reset and start over at any point during the quiz. This feature ensures participants can try again or play multiple times, enhancing the replayability of the game.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-[RESTART](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/navbar.png)
+![RESTART](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/restart.png)
 
 - __Interactive Answer Feedback__
 
