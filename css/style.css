@@ -48,7 +48,7 @@ p {
 .description {
   font-size: 20px;
   line-height: 2rem;
-  text-align: left; /* Ensure text is left-aligned */
+  text-align: left; /* Text is left-aligned */
 }
 
 /* Button Styling */
@@ -66,4 +66,24 @@ p {
 
 .play-btn:hover {
   background: rgb(217, 0, 110);
+}
+
+/* Media Query for screens between 320px and 1000px */
+@media (min-width: 320px) and (max-width: 1000px) {
+  .intro-hero {
+      padding: 15px; /* Reduce padding */
+      max-width: 90%; /* Make the container more fluid */
+  }
+
+  h1 {
+      font-size: 28px; /* Reduce font size */
+  }
+
+  p, .description {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .play-btn {
+      font-size: 16px; /* Adjust button font size */
+      padding: 12px 25px; 
 }
