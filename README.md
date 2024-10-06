@@ -27,13 +27,13 @@ The web app works across all platforms such as your mobile device, laptop and de
   - When a participant selects an answer, the system immediately provides feedback. Correct answers turn green, and incorrect answers turn red, offering a clear indication of success. 
   - Additionally, if the correct answer is selected, a related image from the film is displayed, enriching the quiz with multimedia elements.
 
-![ANSWER FEEDBACK](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/dicaprio.png)
 
 - __Real-Time Scoring and Results__
 
   - The quiz includes a real-time scoring system that tracks how many correct answers a player has given. At the end of the quiz, the player’s score and percentage are displayed in a result section, providing clear feedback on performance.
 
-![REALTIME SCORE](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![REALTIME SCORE](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/realtimescore.png)
 
 - __Registration and Score Submission__
 
