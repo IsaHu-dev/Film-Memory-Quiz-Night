@@ -65,11 +65,11 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 - __Summary__
 
- - The Film Memory Quiz Night offers an engaging and interactive experience with features like real-time feedback, visual elements, scoring systems, and seamless navigation. Whether you're playing on a mobile device or desktop, the quiz provides an accessible, fun, and challenging environment for movie lovers to test their knowledge and enjoy a game night with friends or family.
+  - The Film Memory Quiz Night offers an engaging and interactive experience with features like real-time feedback, visual elements, scoring systems, and seamless navigation. Whether you're playing on a mobile device or desktop, the quiz provides an accessible, fun, and challenging environment for movie lovers to test their knowledge and enjoy a game night with friends or family.
 
 ### Features Left to Implement
 
-- Add a user dasboard for users to check their scores every month on a subscription basis.
+  - Add a user dasboard for users to check their scores every month on a subscription basis.
 
 ## Testing 
 
