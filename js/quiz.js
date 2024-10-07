@@ -92,13 +92,13 @@ function showScore() {
     const videoSource = document.getElementById('video-source');
     const congratsText = document.getElementById('congrats-text');
 
-    // Conditionally show a congratulatory video or hide the media - if score is above 70%
+    // Conditionally show a congratulatory video or hide the media
     if (scorePercent >= 70) {
         // Hide the image
         answerImage.style.display = "none";
 
         // Show the video and set the source to confetti.mp4
-        videoSource.src = "videos/confetti.mp4"; 
+        videoSource.src = "videos/confetti.mp4";  // Set the correct path for your video
         videoElement.style.display = "block";
         videoElement.load();  // Load the video
         videoElement.play();  // Optionally auto-play the video
