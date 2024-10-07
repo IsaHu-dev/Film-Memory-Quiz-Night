@@ -44,12 +44,10 @@ The web app works across all platforms such as your mobile device, laptop and de
 
   - The quiz supports the display of images related to the films, providing a visually appealing experience. Correct answers are accompanied by relevant images from the film, making the quiz more engaging and enjoyable for participants. The visual image cards are prompted by a correct answer and it's aims is to stimulate your memory. These cards help you stay engaged and strengthen your memory connections, similar to methods used in psychological studies.
 
-![VISUAL MEMORY CARDS]
+![VISUAL MEMORY CARDS](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/imagecards.png)
 - __Mobile and Desktop Compatibility__
 
   - The quiz has been designed to be responsive, ensuring it works well on both mobile devices and desktops. The flexible layout adapts to different screen sizes, making it suitable for players on the go or at home on larger screens.
-
-![RESULTS SCREEN]
 
 - __Interactive Result Screen__
 
