@@ -73,13 +73,14 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 ## Testing 
 
-- The Film Memory Quiz Night web application was successfully tested and met all functional and usability requirements. During testing, the quiz consistently loaded questions and answers without errors, and users received immediate feedback with visual cues for correct and incorrect answers. 
 
-- The Film Memory Quiz Night web application was thoroughly tested across multiple major browsers, including Firefox, Safari, Microsoft Edge, and Chrome. In all cases, the application performed seamlessly, with no significant differences in functionality or user experience. 
+  - The Film Memory Quiz Night web application was successfully tested and met all functional and usability requirements. During testing, the quiz consistently loaded questions and answers without errors, and users received immediate feedback with visual cues for correct and incorrect answers. 
 
-- The quiz loaded quickly, and all interactive elements, such as buttons, answer selections, and the display of image cards, worked consistently across these browsers. 
+  - The Film Memory Quiz Night web application was thoroughly tested across multiple major browsers, including Firefox, Safari, Microsoft Edge, and Chrome. In all cases, the application performed seamlessly, with no significant differences in functionality or user experience.
 
-- Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
+  - The quiz loaded quickly, and all interactive elements, such as buttons, answer selections, and the display of image cards, worked consistently across these browsers. 
+  
+  - Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
 
 ### Validator Testing 
 
@@ -107,17 +108,12 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 
 ## Credits 
 
-  -  I used this tutorial as a rough guide:(https://www.youtube.com/watch?v=eQxcuCMNtFM) I have taken the structure of this tutorial and written my own code. 
+  -  I used this tutorial as a rough guide:  https://www.youtube.com/watch?v=eQxcuCMNtFM. I have taken the structure of this tutorial and written my own code. 
   
   - Javascript resources https://javascript.info/, [FreeCodeCamp](https://www.freecodecamp.org/learn/) - free course
   
   - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) - git free course
 
-  
-  
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
