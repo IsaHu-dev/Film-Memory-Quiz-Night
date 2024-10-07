@@ -20,20 +20,20 @@ The web app works across all platforms such as your mobile device, laptop and de
   - The quiz includes a handy "Restart Game" button that allows players to reset and start over at any point during the quiz. This feature ensures participants can try again or play multiple times, enhancing the replayability of the game.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![RESTART](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/restart.png)
+[RESTART](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/restart.png)
 
 - __Interactive Answer Feedback__
 
   - When a participant selects an answer, the system immediately provides feedback. Correct answers turn green, and incorrect answers turn red, offering a clear indication of success. 
   - Additionally, if the correct answer is selected, a related image from the film is displayed, enriching the quiz with multimedia elements.
 
-![ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/dicaprio.png)
+[ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/dicaprio.png)
 
 - __Real-Time Scoring and Results__
 
   - The quiz includes a real-time scoring system that tracks how many correct answers a player has given. At the end of the quiz, the player’s score and percentage are displayed in a result section, providing clear feedback on performance.
 
-![REALTIME SCORE](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/realtimescore.png)
+[REALTIME SCORE](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/realtimescore.png)
 
 - __Registration and Score Submission__
 
@@ -95,25 +95,34 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fisahu-dev.github.io%2FFilm-Memory-Quiz-Night%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - JSHINT: Fixed errors, now successfully passed the JShint validator. Please see screenshot below.
-  ![JSHINT](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/jshint_validation.png)
+  [JSHINT](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/jshint_validation.png)
+  
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+A bug was fixed in questions.js early on in the development of the web app. It was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. There are presently no bugs in the web application.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub Pages through the Gitpod environment. The deployment process involves the following steps:
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Commit changes to the repository with descriptive commit messages using Git, which are then pushed to GitHub.
+  
+  - Navigate to the "Actions" tab on GitHub to monitor the deployment workflow. Upon successful deployment, the GitHub Pages site will automatically refresh, and a link (next to the deploy branch) will appear, confirming that the deployment was completed successfully.
 
-The live link can be found here - https://
+The live link can be found here - [Deployed link](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night)
 
 ## Credits 
 
+  -  I used this tutorial as a rough guide:(https://www.youtube.com/watch?v=eQxcuCMNtFM) I have taken the structure of this tutorial and written my own code. 
+  
+  - Javascript resources https://javascript.info/, [FreeCodeCamp](https://www.freecodecamp.org/learn/) - free course
+  
+  - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) - git free course
+
+  - Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
+
+  
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
