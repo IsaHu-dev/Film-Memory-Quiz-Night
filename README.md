@@ -94,7 +94,9 @@ The web app works across all platforms such as your mobile device, laptop and de
   
 ### Unfixed Bugs
 
-A bug was fixed in questions.js early on in the development of the web app. It was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. There are presently no bugs in the web application.
+- A bug was fixed in questions.js early on in the development of the web app. It was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. There are presently no bugs in the web application.
+
+- Fixed a bug on the score system total. The total score now reflects accurately, and the fix has been applied in the register.js file. 
 
 ## Deployment
 
