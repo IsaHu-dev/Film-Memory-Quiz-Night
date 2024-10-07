@@ -27,7 +27,7 @@ The web app works across all platforms such as your mobile device, laptop and de
   - When a participant selects an answer, the system immediately provides feedback. Correct answers turn green, and incorrect answers turn red, offering a clear indication of success. 
   - Additionally, if the correct answer is selected, a related image from the film is displayed, enriching the quiz with multimedia elements.
 
-![ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/dicaprio.png)
+<p align="center">![ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/dicaprio.png)</p>
 
 - __Real-Time Scoring and Results__
 
@@ -55,7 +55,7 @@ The web app works across all platforms such as your mobile device, laptop and de
 
   - __UX DESIGN__
 
-  - I have provided principles of good UX design. it provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The color scheme creates good contrast for readability, and interactive elements like buttons are visually distinct, making it easy for users to interact with the application. Additionally, the quiz is responsive, adapting well to both mobile and desktop devices, ensuring a seamless experience for all users.
+  - I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The color scheme creates good contrast for readability, and interactive elements like buttons are visually distinct, making it easy for users to interact with the application. Additionally, the quiz is responsive, adapting well to both mobile and desktop devices, ensuring a seamless experience for all users.
 
 - __Summary__
  - The Film Memory Quiz Night offers an engaging and interactive experience with features like real-time feedback, visual elements, scoring systems, and seamless navigation. Whether you're playing on a mobile device or desktop, the quiz provides an accessible, fun, and challenging environment for movie lovers to test their knowledge and enjoy a game night with friends or family.
