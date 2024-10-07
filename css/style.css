@@ -26,7 +26,6 @@ body {
   border-radius: 10px;
   width: 100%;
   max-width: 800px;
-  height: auto;
 }
 
 /* Title */
@@ -38,17 +37,19 @@ h1 {
 }
 
 /* Paragraph Styling */
-p {
+p, .description {
   color: #ccc;
-  text-align: left; /* Text aligned to the left */
-  font-size: 18px;
+  text-align: left;
   margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
 }
 
 .description {
   font-size: 20px;
   line-height: 2rem;
-  text-align: left; /* Text is left-aligned */
 }
 
 /* Button Styling */
@@ -71,19 +72,15 @@ p {
 /* Media Query for screens between 320px and 1000px */
 @media (min-width: 320px) and (max-width: 1000px) {
   .intro-hero {
-      padding: 15px; /* Reduce padding */
-      max-width: 90%; /* Make the container more fluid */
+    padding: 15px;
+    max-width: 90%;
   }
 
   h1 {
-      font-size: 28px; /* Reduce font size */
+    font-size: 28px;
   }
 
   p, .description {
-      font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 16px;
   }
-
-  .play-btn {
-      font-size: 16px; /* Adjust button font size */
-      padding: 12px 25px; 
 }

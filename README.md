@@ -39,23 +39,26 @@ The web app works across all platforms such as your mobile device, laptop and de
 
   - Once the quiz is completed, participants can register their scores through a “Register & Send Score” button. This feature redirects users to a registration page, allowing them to input their details and submit their final score and percentage. They can register and submit via an email form.
 
-![REGISTER SCORE](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
+![REGISTER SCORE]
 - __Visual Media Integration__ 
 
   - The quiz supports the display of images related to the films, providing a visually appealing experience. Correct answers are accompanied by relevant images from the film, making the quiz more engaging and enjoyable for participants. The visual image cards are prompted by a correct answer and it's aims is to stimulate your memory. These cards help you stay engaged and strengthen your memory connections, similar to methods used in psychological studies.
 
-![VISUAL MEMORY CARDS](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
+![VISUAL MEMORY CARDS]
 - __Mobile and Desktop Compatibility__
 
   - The quiz has been designed to be responsive, ensuring it works well on both mobile devices and desktops. The flexible layout adapts to different screen sizes, making it suitable for players on the go or at home on larger screens.
 
-![RESULTS SCREEN](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![RESULTS SCREEN]
 
 - __Interactive Result Screen__
 
   - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again, enhancing engagement.
+
+  - __UX DESIGN__
+
+  - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again, enhancing engagement.
+
 
 - __Summary__
  - The Film Memory Quiz Night offers an engaging and interactive experience with features like real-time feedback, visual elements, scoring systems, and seamless navigation. Whether you're playing on a mobile device or desktop, the quiz provides an accessible, fun, and challenging environment for movie lovers to test their knowledge and enjoy a game night with friends or family.
@@ -65,6 +68,16 @@ The web app works across all platforms such as your mobile device, laptop and de
 - Add a user dasboard for users to check their scores every month on a subscription basis.
 
 ## Testing 
+
+The Film Memory Quiz Night web application was successfully tested and met all functional and usability requirements. During testing, the quiz consistently loaded questions and answers without errors, and users received immediate feedback with visual cues for correct and incorrect answers. 
+
+The Film Memory Quiz Night web application was thoroughly tested across multiple major browsers, including Firefox, Safari, Microsoft Edge, and Chrome. In all cases, the application performed seamlessly, with no significant differences in functionality or user experience. 
+
+The quiz loaded quickly, and all interactive elements, such as buttons, answer selections, and the display of image cards, worked consistently across these browsers. 
+
+Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
