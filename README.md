@@ -20,26 +20,26 @@ The web app works across all platforms such as your mobile device, laptop and de
   - The quiz includes a handy "Restart Game" button that allows players to reset and start over at any point during the quiz. This feature ensures participants can try again or play multiple times, enhancing the replayability of the game.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-[RESTART](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/restart.png)
+![RESTART](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/restart.png)
 
 - __Interactive Answer Feedback__
 
   - When a participant selects an answer, the system immediately provides feedback. Correct answers turn green, and incorrect answers turn red, offering a clear indication of success. 
   - Additionally, if the correct answer is selected, a related image from the film is displayed, enriching the quiz with multimedia elements.
 
-[ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/dicaprio.png)
+![ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/dicaprio.png)
 
 - __Real-Time Scoring and Results__
 
   - The quiz includes a real-time scoring system that tracks how many correct answers a player has given. At the end of the quiz, the player’s score and percentage are displayed in a result section, providing clear feedback on performance.
 
-[REALTIME SCORE](https://github.com/IsaHu-dev/Film-Quiz-Night/blob/main/media/realtimescore.png)
+![REALTIME SCORE](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/realtimescore.png)
 
 - __Registration and Score Submission__
 
   - Once the quiz is completed, participants can register their scores through a “Register & Send Score” button. This feature redirects users to a registration page, allowing them to input their details and submit their final score and percentage. They can register and submit via an email form.
 
-![REGISTER SCORE]
+![REGISTRATION PAGE](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/register.png)
 - __Visual Media Integration__ 
 
   - The quiz supports the display of images related to the films, providing a visually appealing experience. Correct answers are accompanied by relevant images from the film, making the quiz more engaging and enjoyable for participants. The visual image cards are prompted by a correct answer and it's aims is to stimulate your memory. These cards help you stay engaged and strengthen your memory connections, similar to methods used in psychological studies.
