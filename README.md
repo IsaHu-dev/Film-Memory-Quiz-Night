@@ -73,24 +73,13 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 ## Testing 
 
-The Film Memory Quiz Night web application was successfully tested and met all functional and usability requirements. During testing, the quiz consistently loaded questions and answers without errors, and users received immediate feedback with visual cues for correct and incorrect answers. 
+- The Film Memory Quiz Night web application was successfully tested and met all functional and usability requirements. During testing, the quiz consistently loaded questions and answers without errors, and users received immediate feedback with visual cues for correct and incorrect answers. 
 
-The Film Memory Quiz Night web application was thoroughly tested across multiple major browsers, including Firefox, Safari, Microsoft Edge, and Chrome. In all cases, the application performed seamlessly, with no significant differences in functionality or user experience. 
+- The Film Memory Quiz Night web application was thoroughly tested across multiple major browsers, including Firefox, Safari, Microsoft Edge, and Chrome. In all cases, the application performed seamlessly, with no significant differences in functionality or user experience. 
 
-The quiz loaded quickly, and all interactive elements, such as buttons, answer selections, and the display of image cards, worked consistently across these browsers. 
+- The quiz loaded quickly, and all interactive elements, such as buttons, answer selections, and the display of image cards, worked consistently across these browsers. 
 
-Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
-
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
 
 ### Validator Testing 
 
