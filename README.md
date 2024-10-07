@@ -108,7 +108,7 @@ The site was deployed to GitHub Pages through the Gitpod environment. The deploy
   
   - Navigate to the "Actions" tab on GitHub to monitor the deployment workflow. Upon successful deployment, the GitHub Pages site will automatically refresh, and a link (next to the deploy branch) will appear, confirming that the deployment was completed successfully.
 
-The live link can be found here - [Deployed link](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night)
+The live link can be found here - [Deployed link](https://isahu-dev.github.io/Film-Memory-Quiz-Night/)
 
 ## Credits 
 
