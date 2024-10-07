@@ -92,10 +92,10 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fisahu-dev.github.io%2FFilm-Memory-Quiz-Night%2F)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fisahu-dev.github.io%2FFilm-Memory-Quiz-Night%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- JSHINT: Fixed errors, now successfully passed the JShint validator. Please see screenshot below.
+- Javascript
+   - JSHINT: Fixed errors, now successfully passed the JShint validator. Please see screenshot below.
   [JSHINT](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/jshint_validation.png)
   
-
 ### Unfixed Bugs
 
 A bug was fixed in questions.js early on in the development of the web app. It was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. There are presently no bugs in the web application.
@@ -118,8 +118,7 @@ The live link can be found here - [Deployed link](https://github.com/IsaHu-dev/F
   
   - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) - git free course
 
-  - Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
-
+  
   
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
@@ -127,12 +126,8 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Content is adapted from Movie quizes online - specifically [Buzzfeed](https://www.buzzfeed.com/kellyrissman/movie-trivia-questions)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
+- Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
