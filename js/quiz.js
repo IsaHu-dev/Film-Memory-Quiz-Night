@@ -86,7 +86,7 @@ function showScore() {
     
     // Adjust the .hero height
     const heroElement = document.querySelector('.hero');
-    heroElement.style.height = "900px";  // Set a smaller height for the congratulation message
+    heroElement.style.height = "1000px";  // Set a smaller height for the congratulation message
 
     // Show the register button
     document.getElementById('register-btn').style.display = 'block';
