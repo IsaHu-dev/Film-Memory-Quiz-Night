@@ -24,8 +24,9 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 - __Interactive Answer Feedback__
 
-  - When a participant selects an answer, the system immediately provides feedback. Correct answers turn green, and incorrect answers turn red, offering a clear indication of success. 
-  - Additionally, if the correct answer is selected, a related image from the film is displayed, enriching the quiz with multimedia elements.
+  - When a participant selects an answer, the system immediately provides feedback. Correct answers turn green, and incorrect answers turn red - indicating the right or wrong answer.
+  - In addition, if the correct answer is selected, a related image from the film is displayed, enriching the quiz with a visual element. 
+  - An image is displayed solely as a visual correlation to the correct answer, aligning with the purpose of the memory game, which is to exercise the brain and get the cog wheels turning.
 
 ![ANSWER FEEDBACK](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/dicaprio.png)
 
@@ -59,19 +60,19 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 - __UX DESIGN__
 
-  - I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The color scheme creates good contrast for readability, and interactive elements like buttons are visually distinct, making it easy for users to interact with the application. Additionally, the quiz is responsive, adapting well to both mobile and desktop devices, ensuring a seamless experience for all users.
+  - I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The interactive elements,(i.e, the buttons) are visually distinct, making it easy for users to interact with the application. 
 
-  - The Colour Palette - consists of a combination of neutral, vibrant, and contrasting colors, supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) offer excellent readability when paired with lighter text, enhancing clarity and reducing eye strain, especially in low-light environments. The use of "Keypad" (5DBEA3) brings a calming, balanced tone to the interface, often associated with trust and ease of use, ideal for interactive elements like buttons. Bright accent colors such as "Deep Pink" (EC3992) and "Dragonfruit" (D9006E) draw attention to critical actions or alerts, improving user engagement. Together, this palette supports user-friendly interactions by balancing readability, visual emphasis, and emotional appeal, creating a seamless and intuitive experience.
+  - The Colour Palette - consists of a combination of neutral, vibrant, and contrasting colors, supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) offer excellent readability when paired with lighter text and enhance clarity. The use of "Keypad" (13926E) brings a calming, balanced tone to the interface, often associated with trust and ease of use, ideal for interactive elements like buttons. 
+  
+  - Bright accent colors such as "Deep Pink" (DF0B75) and "Dragonfruit" (EB59A2) draw attention to critical actions or alerts, improving user engagement. Together, this palette supports user-friendly interactions by balancing readability, visual emphasis, and emotional appeal, creating a seamless and intuitive experience.
+
+  - Additionally, the high contrast between buttons and their backgrounds ensures that they are accessible to a wide range of users, including those with visual impairments, by adhering to accessibility guidelines. The web application has a high score on Lighthouse.
 
 ![Colour Swatch](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/colourswatch.png)
 
 - __Summary__
 
   - The Film Memory Quiz Night offers an engaging and interactive experience with features like real-time feedback, visual elements, scoring systems, and seamless navigation. Whether you're playing on a mobile device or desktop, the quiz provides an accessible, fun, and challenging environment for movie lovers to test their knowledge and enjoy a game night with friends or family.
-
-### Features Left to Implement
-
-  - Add a user dasboard for users to check their scores every month on a subscription basis.
 
 ## Testing 
 
