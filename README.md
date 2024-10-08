@@ -51,6 +51,8 @@ The web app works across all platforms such as your mobile device, laptop and de
 
   - The quiz has been designed to be responsive, ensuring it works well on both mobile devices and desktops. The flexible layout adapts to different screen sizes, making it suitable for players on the go or at home on larger screens.
 
+![MOBILE DESKTOP COMPATIBILITY](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/3screens.png)
+
 - __Interactive Result Screen__
 
   - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again, enhancing engagement.
@@ -72,7 +74,6 @@ The web app works across all platforms such as your mobile device, laptop and de
   - Add a user dasboard for users to check their scores every month on a subscription basis.
 
 ## Testing 
-
 
   - The Film Memory Quiz Night web application was successfully tested and met all functional and usability requirements. During testing, the quiz consistently loaded questions and answers without errors, and users received immediate feedback with visual cues for correct and incorrect answers. 
 
