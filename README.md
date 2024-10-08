@@ -54,7 +54,11 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 - __Interactive Result Screen__
 
-  - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again, enhancing engagement.
+  - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again, enhancing engagement. 
+  
+  - At the last stage of designing the web application, a congraluations page is included for users who score over 70%.
+
+  ![RESULTS SCREEN](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/congrats.png)
 
 - __UX DESIGN__
 
