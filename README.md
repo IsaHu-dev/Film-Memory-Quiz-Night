@@ -104,12 +104,13 @@ The site was deployed to GitHub Pages through the Gitpod environment. The deploy
 
   - Commit changes to the repository with descriptive commit messages using Git, which are then pushed to GitHub.
    - Commit changes to the repository with descriptive commit messages using Git, which are then pushed to GitHub. 
-  - To deploying the web application: 
-   - Firstly navigate to your site's repository. 
-   - Click on settings. 
-   - Click Pages under General settings.
-   - Under Build and deployment , select Deploy from a branch. 
-   - Choose a publishing source (i.e. main) from the branch dropdown menu. Then click save.   
+  - To deploying the web application:
+   
+    1. Firstly navigate to your site's repository. 
+    2. Click on settings. 
+    3. Click Pages under General settings.
+    4. Under Build and deployment,select Deploy from a branch. 
+    5. Choose a publishing source (i.e. main) from the branch dropdown menu. Then click save.   
 
   - Navigate to the "Actions" tab on GitHub to monitor the deployment workflow. Upon successful deployment, the GitHub Pages site will automatically refresh, and a link (next to the deploy branch) will appear, confirming that the deployment was completed successfully.
 
@@ -122,7 +123,7 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
   - Javascript resources https://javascript.info/, [FreeCodeCamp](https://www.freecodecamp.org/learn/) - free course
   
   - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) - git free course.
-  
+
   - CSS resource - flex box code ideas. [CSS Tricks](https://css-tricks.com/dont-overthink-flexbox-grids/)
 
 

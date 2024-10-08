@@ -35,7 +35,7 @@ body {
 }
 
 #restart-btn {
-  background: #5dbea3;
+  background: #38a385;
   color: #ffffff;
   border: none;
   font-weight: 800;
@@ -111,7 +111,7 @@ h1 {
 }
 
 .btn {
-  background: rgb(236, 57, 146);
+  background: rgb(223, 11, 117);
   color: white;
   border: none;
   padding: 15px;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .btn:hover {
-  background: rgb(217, 0, 110);
+  background: rgb(235, 89, 162);
 }
 
 #next-btn {
