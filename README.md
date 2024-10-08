@@ -1,11 +1,9 @@
 # Film Memory Quiz Night
 
 Pitch: Welcome to Film Memory Quiz Night, a fun and engaging game designed to challenge your memory and sharpen your mind after a busy day! Suitable for all ages, from young learners to adults looking to keep their memory strong, this game offers an enjoyable way to relax in the evening while exercising your cognitive abilities.
- Film Memory Quiz Night is designed to be played in the evening, allowing you to relax, reflect and reminisce about film after a full day of activities
-. With a mix of fun questions and visual prompts, this game is not only entertaining but also a great way to keep your mind active. Try it tonight and enjoy a refreshing brain challenge!
+ Film Memory Quiz Night is designed to be played in the evening, allowing you to relax, reflect and reminisce about film after a full day of activities. With a mix of fun questions and visual prompts, this game is not only entertaining but also a great way to keep your mind active. Try it tonight and enjoy a refreshing brain challenge!
 
-
-The Memory Quiz Night is a fun event where people can test how much they remember about popular movies. It's a great way to enjoy some friendly competition while sharing a love for films. Whether you're at home, in a pub, or at a special venue, the quiz is designed to bring people together to laugh, talk about favorite films, and have a great time. With trivia questions and memorable movie moments, it’s perfect for movie lovers of all kinds!
+The Memory Quiz Night is a recreational quiz game where people can test how much they remember about popular movies. It's a great way to enjoy some friendly competition while testing your knowledge and memory on new and old films. Whether you're at home, in a pub, or at a special venue, the quiz is designed to bring people of all ages together to laugh, talk about favorite films, and have a great time. With trivia questions and memorable movie moments, it’s perfect for families, couples and social events!
 
 The web app works across all platforms such as your mobile device, laptop and desktop.
 

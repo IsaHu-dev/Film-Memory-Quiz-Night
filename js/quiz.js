@@ -83,6 +83,10 @@ function showScore() {
     
     finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`;
     percentageElement.innerHTML = `${scorePercent}%`;
+    
+    // Adjust the .hero height
+    const heroElement = document.querySelector('.hero');
+    heroElement.style.height = "900px";  // Set a smaller height for the congratulation message
 
     // Show the register button
     document.getElementById('register-btn').style.display = 'block';
