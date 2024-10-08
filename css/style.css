@@ -54,7 +54,7 @@ p {
 
 /* Button Styling */
 .play-btn {
-  background: rgb(236, 57, 146);
+  background: rgb(223, 11, 117);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -66,7 +66,7 @@ p {
 }
 
 .play-btn:hover {
-  background: rgb(217, 0, 110);
+  background: rgb(235, 89, 162);
 }
 
 /* Media Query for screens between 320px and 1000px */
