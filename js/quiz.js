@@ -86,8 +86,8 @@ function showScore() {
     
     // Adjust the .hero height
     const heroElement = document.querySelector('.hero');
-    heroElement.style.height = "1100px";  // Adjust height if needed
-    heroElement.style.marginTop = "150px";  
+    heroElement.style.height = "1200px";  // Adjust height if needed
+    heroElement.style.marginTop = "190px";  
     // Show the register button
     document.getElementById('register-btn').style.display = 'block';
 
