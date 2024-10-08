@@ -92,7 +92,7 @@ The web app works across all platforms such as your mobile device, laptop and de
    - JSHINT: Fixed errors, now successfully passed the JShint validator. Please see screenshot below.
   [JSHINT](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/jshint_validation.png)
   
-### Unfixed Bugs
+### Resolved Bugs
 
 - A bug was fixed in questions.js early on in the development of the web app. It was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. There are presently no bugs in the web application.
 
@@ -103,7 +103,14 @@ The web app works across all platforms such as your mobile device, laptop and de
 The site was deployed to GitHub Pages through the Gitpod environment. The deployment process involves the following steps:
 
   - Commit changes to the repository with descriptive commit messages using Git, which are then pushed to GitHub.
-  
+   - Commit changes to the repository with descriptive commit messages using Git, which are then pushed to GitHub. 
+  - To deploying the web application: 
+   - Firstly navigate to your site's repository. 
+   - Click on settings. 
+   - Click Pages under General settings.
+   - Under Build and deployment , select Deploy from a branch. 
+   - Choose a publishing source (i.e. main) from the branch dropdown menu. Then click save.   
+
   - Navigate to the "Actions" tab on GitHub to monitor the deployment workflow. Upon successful deployment, the GitHub Pages site will automatically refresh, and a link (next to the deploy branch) will appear, confirming that the deployment was completed successfully.
 
 The live link can be found here - [Deployed link](https://isahu-dev.github.io/Film-Memory-Quiz-Night/)
@@ -114,7 +121,9 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
   
   - Javascript resources https://javascript.info/, [FreeCodeCamp](https://www.freecodecamp.org/learn/) - free course
   
-  - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) - git free course
+  - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) - git free course.
+  
+  - CSS resource - flex box code ideas. [CSS Tricks](https://css-tricks.com/dont-overthink-flexbox-grids/)
 
 
 ### Content 
@@ -124,3 +133,4 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 ### Media
 
 - Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
+- Confetti animation video is from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
