@@ -147,7 +147,23 @@ h1 {
   text-align: center;
   transition: all 0.6s;
 }
-
+#register-btn {
+  background: rgb(236, 57, 146);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s;
+  text-align: center;
+}
+#register-btn:hover {
+  background: rgb(217, 0, 110);
+}
 #next-btn:hover {
   color: #ffffff;
   border: 1px solid #ffffff;
