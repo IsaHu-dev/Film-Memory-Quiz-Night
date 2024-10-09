@@ -64,7 +64,7 @@ The web app works across all platforms such as your mobile device, laptop and de
 
   - I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The interactive elements,(i.e, the buttons) are visually distinct, making it easy for users to interact with the application. 
 
-  - The Colour Palette - consisting of a combination of neutral, vibrant, and contrasting colors, supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) and Charcoal (333) keeps the palette balanced, when placed next to the pink shades. It offers excellent readability when paired with lighter text and enhance clarity. 
+  - The Colour Palette - consisting of a combination of neutral, vibrant, and contrasting colours - supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) and Charcoal (333) keeps the palette balanced, when placed next to the pink shades. It offers excellent readability when paired with lighter text and enhance clarity.
   
   - Bright accent colors such as "Deep Pink" (DF0B75) and "Dragonfruit" (EB59A2) draw attention to critical actions or alerts, improving user engagement. Together, this palette supports user-friendly interactions by balancing readability, visual emphasis, and emotional appeal, creating a seamless and intuitive experience.
 
@@ -85,6 +85,18 @@ The web app works across all platforms such as your mobile device, laptop and de
   - The quiz loaded quickly, and all interactive elements, such as buttons, answer selections, and the display of image cards, worked consistently across these browsers. 
   
   - Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
+
+  | Testcase                          | Expected Result                                                       | Test Result |
+|-----------------------------------|-----------------------------------------------------------------------|-------------|
+| Open the Homepage                 | Index page opens with introduction content and play button            | ✅ PASS          |
+| Play button hover and click       | Play button directs user to quiz page                                 | ✅ PASS          |
+| Questions load on landing page    | Questions and answer buttons load                                     | ✅ PASS          |
+| Correct answer selection          | Image card appears. Correct answer highlighted in green               | ✅ PASS          |
+| Incorrect answer selection        | Red highlight appears on incorrect answer button                      | ✅ PASS          |
+| Correct answer selection          | Answer selection appears in green                                     | ✅ PASS          |
+| Restart Game button               | Restarts game and redirects to Index page                             | ✅ PASS          |
+| Score Result page                 | Percentage score and 8 out of 10 results are generated                | ✅ PASS          |
+| Congratulations page              | Score is over 70%. Congratulations, You're a Winner text appears      | ✅ PASS          |
 
 ## Accessibility
 
