@@ -9,14 +9,14 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 ## Features 
 
-- The Film Memory Quiz Night is designed with a clean and intuitive interface using HTML, CSS, and JavaScript, making it easy for users of all ages to engage. The interface displays questions and answers in a clear and simple way, with buttons for selecting answers and navigating through the quiz.
+- The Film Memory Quiz Night is designed with a clean and intuitive interface using HTML, CSS, and JavaScript, making it easy for users of all ages to engage. The interface presents questions and answers clearly, with easy-to-use buttons for selecting answers and navigating through the quiz.
 
 ### Existing Features
 
 - __Restart Functionality__
 
-  - The quiz includes a handy "Restart Game" button that allows players to reset and start over at any point during the quiz. This feature ensures participants can try again or play multiple times, enhancing the replayability of the game.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  The quiz includes a handy "Restart Game" button that allows players to reset and start over at any point during the quiz. This option allows participants to retry or play multiple times, enhancing the overall ease of restarting the game.
+ - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![RESTART](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/restart.png)
 
@@ -68,7 +68,7 @@ The web app works across all platforms such as your mobile device, laptop and de
   
   - Bright accent colors such as "Deep Pink" (DF0B75) and "Dragonfruit" (EB59A2) draw attention to critical actions or alerts, improving user engagement. Together, this palette supports user-friendly interactions by balancing readability, visual emphasis, and emotional appeal, creating a seamless and intuitive experience.
 
-  - Additionally, the high contrast between buttons and their backgrounds ensures that they are accessible to a wide range of users, including those with visual impairments, by adhering to accessibility guidelines. The web application has a high score on Lighthouse.
+  - Additionally, the high contrast between buttons and their backgrounds ensures that they are accessible to a wide range of users, including those with visual impairments, by adhering to accessibility guidelines. 
 
 ![Colour Swatch](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/colourswatch.png)
 
@@ -85,6 +85,13 @@ The web app works across all platforms such as your mobile device, laptop and de
   - The quiz loaded quickly, and all interactive elements, such as buttons, answer selections, and the display of image cards, worked consistently across these browsers. 
   
   - Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
+
+## Accessibility
+
+- As noted in the UX Design section, the high contrast between buttons and backgrounds ensures accessibility for users with visual impairments. It is indicated by Lighthouse that SEO needs to be improved. This is not a concern at this time.
+
+  Here is the lighthouse score: 
+  ![Lighthouse](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/lighthouse.png)
 
 ### Validator Testing 
 
@@ -122,7 +129,7 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 
 ## Credits 
 
-  -  I used this tutorial as a rough guide:  https://www.youtube.com/watch?v=eQxcuCMNtFM. I have taken the structure of this tutorial and written my own code. 
+  - I used this tutorial as a rough guide:  https://www.youtube.com/watch?v=eQxcuCMNtFM. I have taken the structure of this tutorial and written my own code. 
   
   - Javascript resources https://javascript.info/, [FreeCodeCamp](https://www.freecodecamp.org/learn/) - free course
   
@@ -139,3 +146,4 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 
 - Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
 - Confetti animation video is from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
+- The README.md template is adapted from the Love Running README.md 
