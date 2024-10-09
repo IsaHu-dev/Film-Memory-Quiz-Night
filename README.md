@@ -1,6 +1,7 @@
 # Film Memory Quiz Night
 
 Pitch: Welcome to Film Memory Quiz Night, a fun and engaging game designed to challenge your memory and sharpen your mind after a busy day! Suitable for all ages, from young learners to adults looking to keep their memory strong, this game offers an enjoyable way to relax in the evening while exercising your cognitive abilities.
+
  Film Memory Quiz Night is designed to be played in the evening. It allows you to relax, reflect, and reminisce about films after a full day of activities. With a mix of fun questions and visual prompts, this game is not only entertaining but also a great way to keep your mind active. Try it tonight and enjoy a refreshing brain challenge!
 
 The Memory Quiz Night is a recreational quiz game where people can test how much they remember about popular movies. It's a great way to enjoy some friendly competition while testing your knowledge and memory on new and old films. Whether you're at home, in a pub, or at a special venue, the quiz is designed to bring people of all ages together to laugh, talk about favourite films, and have a great time. With trivia questions and memorable movie moments, it's perfect for families, couples and social events!
@@ -56,7 +57,7 @@ The web app works across all platforms, including your mobile device, laptop, an
 
   - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again, enhancing engagement. 
   
-  - At the last stage of designing the web application, a congratulations page is included for users who score over 70%.
+  - At the last stage of designing the web application, a congratulations page is included for users who score over 70%. An animation displaying confetti is added as visual simuli to congratulate the winner!
 
  ![RESULTS SCREEN](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/congrats.png)
 
