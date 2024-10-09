@@ -88,15 +88,17 @@ The web app works across all platforms, including your mobile device, laptop, an
 
  | Testcase                          | Expected Result                                                       | Test Result |
 |-----------------------------------|-----------------------------------------------------------------------|-------------|
-| Open the Homepage                 | Index page opens with introduction content and play button            | ✅ PASS          |
-| Play button hover and click       | Play button directs user to quiz page                                 | ✅ PASS          |
-| Questions load on landing page    | Questions and answer buttons load                                     | ✅ PASS          |
-| Correct answer selection          | Image card appears. Correct answer highlighted in green               | ✅ PASS          |
-| Incorrect answer selection        | Red highlight appears on incorrect answer button                      | ✅ PASS          |      
-| Restart game button               | Restarts game and redirects to the index page                         | ✅ PASS          |
-| Score result page                 | Percentage score and the user's score out of 10 results are generated | ✅ PASS          |
-| Congratulations page              | If the score result is over 70%. The congratulations text appears     | ✅ PASS          |
-| Congratulations page              | If the score result is over 70%. The congratulations text appears     | ✅ PASS          |
+| Open the Homepage                 | Index page opens with introduction content and play button                          | ✅ PASS  |
+| Play button hover and click       | Play button directs user to quiz page                                               | ✅ PASS  |
+| Questions load on landing page    | Questions and answer buttons load                                                   | ✅ PASS  |
+| Correct answer selection          | Image card appears. Correct answer highlighted in green                             | ✅ PASS  |
+| Incorrect answer selection        | Red highlight appears on incorrect answer button                                    | ✅ PASS  |      
+| Restart game button               | Restarts game and redirects to the index page                                       | ✅ PASS  |
+| Score result page                 | The percentage score and the user's score out of 10 results are generated           | ✅ PASS  |
+| Congratulations page              | If the score result is over 70%. The congratulations text appears                   | ✅ PASS  |
+| Registration page                 | The user can register their email at the end of the quiz                            | ✅ PASS  |
+| Submit score via a html form      | A valid email is recorded and the submit button will email the scores to the user   | ✅ PASS  |
+
 
 ## Accessibility
 
