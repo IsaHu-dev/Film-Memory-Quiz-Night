@@ -17,12 +17,12 @@
   </button>
 </div>
 
-<div class="hero">
+<main class="hero">
   <h1>Film Memory Quiz</h1>
   
   <!-- Image Placeholder -->
   <div class="image-container">
-    <img id="answer-image" src="images/dummy.png" alt="Answer Image" style="display: none;" />
+    <img id="answer-image" src="images/dummy.png" alt="Answer Image" style="display: none;">
   </div>
   
   <!-- Quiz Section -->
@@ -47,8 +47,8 @@
   <div class="result-container" id="result-container" style="display: none;">
     <!-- Video and Congratulations Text -->
     <div class="media-container">
-      <video id="congrats-video" style="display: none;" width="100%" controls>
-        <source id="video-source" src="" type="video/mp4">
+      <video id="congrats-video" style="display: none; width: 100%;" controls>
+        <source id="video-source" src="videos/confetti.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <h2 id="congrats-text" style="display: none;">Congratulations, You’re a Winner!</h2>
@@ -60,10 +60,10 @@
       <p id="percentage">0%</p>
     </div>
     <p id="final-score">Your Score 0 out of 6</p>
-    <button id="register-btn" class="btn">Register & Send Score</button> <!-- New button added -->
+    <button id="register-btn" class="btn">Register & Send Score</button>
     <button id="home-btn" class="btn">Go Again!</button>
   </div>
-</div>
+</main>
 
 <!-- Load questions.js first -->
 <script src="js/questions.js"></script>
