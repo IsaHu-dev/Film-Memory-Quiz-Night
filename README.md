@@ -64,7 +64,7 @@ The web app works across all platforms such as your mobile device, laptop and de
 
   - I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The interactive elements,(i.e, the buttons) are visually distinct, making it easy for users to interact with the application. 
 
-  - The Colour Palette - consists of a combination of neutral, vibrant, and contrasting colors, supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) offer excellent readability when paired with lighter text and enhance clarity. The use of "Keypad" (13926E) brings a calming, balanced tone to the interface, often associated with trust and ease of use, ideal for interactive elements like buttons. 
+  - The Colour Palette - consisting of a combination of neutral, vibrant, and contrasting colors, supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) and Charcoal (333) keeps the palette balanced, when placed next to the pink shades. It offers excellent readability when paired with lighter text and enhance clarity. 
   
   - Bright accent colors such as "Deep Pink" (DF0B75) and "Dragonfruit" (EB59A2) draw attention to critical actions or alerts, improving user engagement. Together, this palette supports user-friendly interactions by balancing readability, visual emphasis, and emotional appeal, creating a seamless and intuitive experience.
 
@@ -113,7 +113,6 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 The site was deployed to GitHub Pages through the Gitpod environment. The deployment process involves the following steps:
 
-  - Commit changes to the repository with descriptive commit messages using Git, which are then pushed to GitHub.
    - Commit changes to the repository with descriptive commit messages using Git, which are then pushed to GitHub. 
   - To deploying the web application:
    
