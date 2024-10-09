@@ -92,11 +92,10 @@ The web app works across all platforms such as your mobile device, laptop and de
 | Play button hover and click       | Play button directs user to quiz page                                 | ✅ PASS          |
 | Questions load on landing page    | Questions and answer buttons load                                     | ✅ PASS          |
 | Correct answer selection          | Image card appears. Correct answer highlighted in green               | ✅ PASS          |
-| Incorrect answer selection        | Red highlight appears on incorrect answer button                      | ✅ PASS          |
-| Correct answer selection          | Answer selection appears in green                                     | ✅ PASS          |
+| Incorrect answer selection        | Red highlight appears on incorrect answer button                      | ✅ PASS          |      
 | Restart Game button               | Restarts game and redirects to Index page                             | ✅ PASS          |
-| Score Result page                 | Percentage score and 8 out of 10 results are generated                | ✅ PASS          |
-| Congratulations page              | Score is over 70%. Congratulations, You're a Winner text appears      | ✅ PASS          |
+| Score Result page                 | Percentage score and the user's score out of 10 results are generated | ✅ PASS          |
+| Congratulations page              | If the Score result is over 70%. The Congratulations text appears     | ✅ PASS          |
 
 ## Accessibility
 
@@ -158,5 +157,5 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 - Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
 - Confetti animation video is from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
 - I created my own artwork for the Pulp Fiction image cards.
-- Colour swatch is adatped from [Coolors]https://coolors.co/222222-181a20-5dbea3-ec3992-d9006e
+- Colour swatch is adatped from [Coolors](https://coolors.co/222222-181a20-5dbea3-ec3992-d9006e)
 - The README.md template is adapted from the Love Running README.md. 

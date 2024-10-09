@@ -6,7 +6,7 @@
     { text: "Forrest Gump", correct: true },
     { text: "The Lion King", correct: false }
   ],
-  image: "images/forestgump.png"
+  image: "images/forestgump.webp"
 },
 {
   question: "Who played the character of Jack Dawson in Titanic?",
@@ -16,7 +16,7 @@
     { text: "Tom Cruise", correct: false },
     { text: "Johnny Depp", correct: false }
   ],
-  image: "images/leonardodicaprio.jpg"
+  image: "images/leonardodicaprio.webp"
 },
 {
   question: "Which director is known for 'Inception', 'The Dark Knight', and 'Interstellar'?",
@@ -26,7 +26,7 @@
     { text: "Martin Scorsese", correct: false },
     { text: "Quentin Tarantino", correct: false }
   ],
-  image: "images/batman.jpg"
+  image: "images/batman.webp"
 },
 {
   question: "In which movie does the quote 'May the Force be with you' appear?",
@@ -36,7 +36,7 @@
     { text: "Harry Potter", correct: false },
     { text: "Star Wars", correct: true }
   ],
-  image: "images/starwars.png"
+  image: "images/starwars.webp"
 },
 {
   question: "Which actress played Katniss Everdeen in 'The Hunger Games' series?",
@@ -46,7 +46,7 @@
     { text: "Anne Hathaway", correct: false },
     { text: "Jennifer Lawrence", correct: true }
   ],
-  image: "images/mockingjay.png"
+  image: "images/mockingjay.webp"
 },
 {
   question: "Which 1994 film featured the song 'Hakuna Matata'?",
@@ -56,7 +56,7 @@
     { text: "Beauty and the Beast", correct: false },
     { text: "Pocahontas", correct: false }
   ],
-  image: "images/lionking.jpg"
+  image: "images/lionking.webp"
 },
 {
   question: "Who directed 'Pulp Fiction'?",
@@ -66,7 +66,7 @@
     { text: "Stanley Kubrick", correct: false },
     { text: "Ridley Scott", correct: false }
   ],
-  image: "images/pulpfiction.jpg"
+  image: "images/quentin.webp"
 },
 {
   question: "Which of the following best explains the purpose of using non-linear narratives in films like Memento (2000) or Pulp Fiction (1994)?",
@@ -76,7 +76,7 @@
     { text: "To encourage viewers to actively piece together the story themselves", correct: false },
     { text: "All of the above", correct: true }
   ],
-  image: "images/pf_uma.png"
+  image: "images/pf_uma.webp"
 },
 {
   question: "In which movie does a computer hacker learn about the real world and its virtual counterpart?",
@@ -86,7 +86,7 @@
     { text: "Blade Runner", correct: false },
     { text: "The Matrix", correct: true }
   ],
-  image: "images/matrix.png"
+  image: "images/matrix.webp"
 },
 {
   question: "In The Dark Knight (2008), how does director Christopher Nolan use the Joker’s lack of a consistent backstory to enhance the character’s impact?",
@@ -96,5 +96,5 @@
     { text: "It humanizes the Joker by showing different aspects of his past", correct: false },
     { text: "It distracts from the plot, focusing instead on chaos for the sake of chaos", correct: false }
   ],
-  image: "images/joker.png"
+  image: "images/joker.webp"
 }
