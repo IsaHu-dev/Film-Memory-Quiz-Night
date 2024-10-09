@@ -60,16 +60,6 @@ const questions = [
     image: "images/lionking.jpg"
   },
   {
-    question: "What is the name of the fictional African country in 'Black Panther'?",
-    answers: [
-      { text: "Genovia", correct: false },
-      { text: "Wakanda", correct: true },
-      { text: "Zamunda", correct: false },
-      { text: "Narnia", correct: false }
-    ],
-    image: "images/dummy.jpg"
-  },
-  {
     question: "Who directed 'Pulp Fiction'?",
     answers: [
       { text: "Quentin Tarantino", correct: true },
@@ -77,26 +67,36 @@ const questions = [
       { text: "Stanley Kubrick", correct: false },
       { text: "Ridley Scott", correct: false }
     ],
-    image: "images/dummy.jpg"
+    image: "images/quentin.png"
+  },
+  {
+    question: "Which of the following best explains the purpose of using non-linear narratives in films like Memento (2000) or Pulp Fiction (1994)?",
+    answers: [
+      { text: "To disorient the audience and mirror the character’s psychological state", correct: false },
+      { text: "To build suspense by revealing key plot points out of chronological order", correct: false },
+      { text: "To encourage viewers to actively piece together the story themselves", correct: false },
+      { text: "All of the above", correct: true }
+    ],
+    image: "images/pf_uma.png"
   },
   {
     question: "In which movie does a computer hacker learn about the real world and its virtual counterpart?",
     answers: [
-      { text: "The Matrix", correct: true },
+      { text: "Ready Player One", correct: false },
       { text: "Tron", correct: false },
       { text: "Blade Runner", correct: false },
-      { text: "Ready Player One", correct: false }
+      { text: "The Matrix", correct: true }
     ],
-    image: "images/dummy.png"
+    image: "images/matrix.jpg"
   },
   {
-    question: "Which actor voiced Woody in the 'Toy Story' movies?",
+    question: "In The Dark Knight (2008), how does director Christopher Nolan use the Joker’s lack of a consistent backstory to enhance the character’s impact??",
     answers: [
-      { text: "Tom Hanks", correct: true },
-      { text: "Tim Allen", correct: false },
-      { text: "Billy Crystal", correct: false },
-      { text: "Robin Williams", correct: false }
+      { text: "It creates a sense of mystery and unpredictability, making him more terrifying", correct: true },
+      { text: "It allows the audience to empathize with his motivations", correct: false },
+      { text: "It humanizes the Joker by showing different aspects of his past", correct: false },
+      { text: "It distracts from the plot, focusing instead on chaos for the sake of chaos", correct: false }
     ],
-    image: "images/dummy.png"
+    image: "images/joker.png"
   }
 ];

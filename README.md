@@ -36,7 +36,7 @@ The web app works across all platforms such as your mobile device, laptop and de
 
 - __Registration and Score Submission__
 
-  - Once the quiz is completed, participants can register their scores through a “Register & Send Score” button. This feature redirects users to a registration page, allowing them to input their details and submit their final score and percentage. They can register and submit via an email form.
+  - Once the quiz is completed, participants can register their scores through a “Register & Send Score” button. This feature redirects users to a registration page, allowing them to input their details and submit their final score and percentage. They can register and submit via a registration form to their email address. This is a great takeaway to keep your scores as part of a memorable experience.
 
 ![REGISTRATION PAGE](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/register.png)
 
@@ -145,4 +145,6 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 
 - Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
 - Confetti animation video is from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
-- The README.md template is adapted from the Love Running README.md 
+- I created my own artwork for the Pulp Fiction image cards.
+- Colour swatch is adatped from [Coolors]https://coolors.co/222222-181a20-5dbea3-ec3992-d9006e
+- The README.md template is adapted from the Love Running README.md. 
