@@ -87,19 +87,20 @@
   
   - Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
 
- | Testcase                          | Expected Result                                                       | Test Result |
-|-----------------------------------|------------------------------------------------------------------------------------|
-| Open the Homepage                 | Index page opens with introduction content and play button                          | ✅ PASS  |
-| Play button hover and click       | Play button directs user to quiz page                                               | ✅ PASS  |
-| Questions load on landing page    | Questions and answer buttons load                                                   | ✅ PASS  |
-| Correct answer selection          | Image card appears. Correct answer highlighted in green                             | ✅ PASS  |
-| Incorrect answer selection        | Red highlight appears on incorrect answer button                                    | ✅ PASS  |      
-| Restart game button               | Restarts game and redirects to the index page                                       | ✅ PASS  |
-| Score result page                 | The percentage score and the user's score out of 10 results are generated           | ✅ PASS  |
-| Congratulations page              | If the score result is over 70%. The congratulations text appears                   | ✅ PASS  |
-| Registration page                 | The user can register their email at the end of the quiz                            | ✅ PASS  |
-| Submit score via a html form      | A valid email is recorded and the submit button will email the scores to the user   | ✅ PASS  |
-|-----------------------------------|------------------------------------------------------------------------------------|
+
+
+| Test case                         | Expected Result                                                                     | Test Result |
+|-----------------------------------|-----------------------------------------------------------------------              |-------------|
+| Open the Index page               | Index page opens with introduction content and play button                          | ✅ PASS          |
+| Play button hover and click       | Play button directs user to quiz page                                               | ✅ PASS          |
+| Questions load on landing page    | Questions and answer buttons load                                                   | ✅ PASS          |
+| Correct answer selection          | Image card appears. Correct answer highlighted in green                             | ✅ PASS          |                                
+| Incorrect answer selection        | Red highlight appears on incorrect answer button                                    | ✅ PASS          |
+| Restart game button               | Restarts game and redirects to the index page                                       | ✅ PASS          |                       
+| Score result page                 | The percentage score and the user's score out of 10 results are generated           | ✅ PASS          |                           
+| Congratulations page              | If the score result is over 70%. The congratulations text appears                   | ✅ PASS          |
+| Registration page                 | The user can register their email at the end of the quiz                            | ✅ PASS          |                                              
+| Submit score via a html form      | A valid email is recorded and the submit button will email the scores to the user   | ✅ PASS          |
 
 ## Accessibility
 
@@ -120,9 +121,10 @@
   
 ### Resolved Bugs
 
-- A bug was fixed in questions.js early on in the development of the web app. It was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. There are presently no bugs in the web application.
-
-- Fixed a bug on the score system total. The total score now reflects accurately, and the fix has been applied in the register.js file. 
+- Bug Fixed - in questions.js early on in the development of the web app. It was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. 
+- Bug Fix - on the score system total. The total score now reflects accurately, and the fix has been applied in the register.js file. 
+- Bug Fix - Addressed a styling issue where the correct answer button failed to retain its green colour on smaller devices (e.g., iPhone, Android). Implemented a media query in general.css to ensure the .correct class is consistently applied across different screen resolutions, preventing style overrides. The solution was tested and validated on smaller device types.
+- There are presently no bugs in the web application.
 
 ## Deployment
 
