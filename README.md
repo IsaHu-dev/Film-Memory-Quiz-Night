@@ -123,7 +123,7 @@
 
 - Bug Fixed - in questions.js. Early on in the development of the web app, there was a syntax error. The bug resulted in an "Unexpected end of input". This is now fixed and the questions follow on, once a question is answered. 
 - Bug Fix - on the score system total. The total score now reflects accurately, and the fix has been applied in the register.js file. 
-- Bug Fix - Addressed a styling issue where the correct answer button failed to retain its green colour on smaller devices (e.g., iPhone, Android). Implemented a media query in general.css to ensure the .correct class is consistently applied across different screen resolutions, preventing style overrides. The solution was tested and validated on smaller device types.
+- Bug Fix - addressed a styling issue where the correct answer button failed to retain its green colour on smaller devices (e.g., iPhone, Android). Implemented a media query in general.css to ensure the .correct class is consistently applied across different screen resolutions, preventing style overrides. The solution was tested and validated on smaller device types.
 - There are presently no bugs in the web application.
 
 ## Deployment
