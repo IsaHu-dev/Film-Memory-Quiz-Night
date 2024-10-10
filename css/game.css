@@ -1,4 +1,5 @@
 * {
+  /* Reset margin and padding, set a base font-family, and ensure consistent box sizing */
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
@@ -6,22 +7,25 @@
 }
 
 body {
+  /* Set a dark background, center content both horizontally and vertically */
   background: #181A20;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
-  position: relative;
+  position: relative; /* Required for absolute positioning of other elements */
 }
+
 .hero {
+  /* Flexbox layout to stack content vertically and center items */
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #222;
-  padding: 20px;
-  border-radius: 10px;
+  background: #222; /* Dark background for the hero section */
+  padding: 20px; /* Padding inside the hero box */
+  border-radius: 10px; /* Rounded corners */
   width: 100%;
   max-width: 600px;
   height: auto;
@@ -35,22 +39,24 @@ body {
 }
 
 #restart-btn {
+  /* Style the restart button with dark background and light text */
   background: #333;
   color: #ffffff;
   border: none;
-  font-weight: 800;
+  font-weight: 800; /* Bold font for emphasis */
   padding: 8px 18px;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Hand pointer on hover */
   font-size: 16px;
   text-align: center;
   display: flex;
   align-items: center;
-  margin-top: 11rem;
-  transition: all 0.3s;
+  margin-top: 11rem; /* Push the button down */
+  transition: all 0.3s; /* Smooth transition on hover */
 }
 
 #restart-btn:hover {
+  /* Hover effect for the restart button */
   color: #ffffff;
   border: 1px solid #ffffff;
   transition: all 0.3s;
@@ -58,11 +64,12 @@ body {
 
 /* Make the restart symbol larger */
 .restart-symbol {
-  font-size: 24px; /* Adjust size as necessary */
-  margin-right: 10px;
+  font-size: 24px; /* Increase font size for better visibility */
+  margin-right: 10px; /* Space between symbol and text */
 }
 
 .image-container {
+  /* Center the image and add spacing below */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -70,6 +77,7 @@ body {
 }
 
 #answer-image {
+  /* Image styling to fit within the container with rounded edges */
   max-width: 100%;
   height: auto;
   border-radius: 10px;
@@ -78,6 +86,7 @@ body {
 }
 
 h1 {
+  /* Heading styling: white color, centered text, and large font size */
   color: #fff;
   text-align: center;
   font-size: 32px;
@@ -85,6 +94,7 @@ h1 {
 }
 
 .quiz {
+  /* Layout for the quiz section */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,6 +103,7 @@ h1 {
 }
 
 #question {
+  /* Styling for quiz questions */
   width: 100%;
   justify-content: left;
   color: #cccccc;
@@ -101,6 +112,7 @@ h1 {
 }
 
 #answer-buttons {
+  /* Arrange answer buttons vertically and center them */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,6 +122,7 @@ h1 {
 }
 
 .btn {
+  /* Style for answer buttons */
   background: rgb(223, 11, 117);
   color: white;
   border: none;
@@ -120,7 +133,7 @@ h1 {
   font-size: 16px;
   width: 100%;
   max-width: 300px;
-  text-align: left;
+  text-align: left; /* Align text to the left */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,10 +141,12 @@ h1 {
 }
 
 .btn:hover {
+  /* Hover effect for buttons */
   background: rgb(235, 89, 162);
 }
 
 #next-btn {
+  /* Next button styling, hidden by default */
   background: #000000;
   color: #ffffff;
   font-weight: 500;
@@ -146,7 +161,9 @@ h1 {
   text-align: center;
   transition: all 0.6s;
 }
+
 #register-btn {
+  /* Styling for the registration button */
   background: rgb(236, 57, 146);
   color: white;
   border: none;
@@ -160,24 +177,31 @@ h1 {
   transition: all 0.3s;
   text-align: center;
 }
+
 #register-btn:hover {
+  /* Hover effect for the registration button */
   background: rgb(217, 0, 110);
 }
+
 #next-btn:hover {
+  /* Hover effect for the next button */
   color: #ffffff;
   border: 1px solid #ffffff;
 }
 
+/* Correct answer styling */
 .correct {
-  background: #00b64f;
+  background: #00b64f; /* Green background for correct answers */
 }
 
+/* Incorrect answer styling */
 .incorrect {
-  background: hsl(337, 100%, 43%);
+  background: hsl(337, 100%, 43%); /* Bright pink for incorrect answers */
 }
 
 /* Result Section */
 .result-container {
+  /* Layout and styling for the result container */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,6 +216,7 @@ h1 {
 }
 
 .circle {
+  /* Styling for the result score circle */
   width: 150px;
   height: 150px;
   border: 8px solid #ff007f;
@@ -203,17 +228,20 @@ h1 {
 }
 
 #percentage {
+  /* Percentage display in the result circle */
   font-size: 36px;
   color: #fff;
 }
 
 #final-score {
+  /* Final score text styling */
   font-size: 20px;
   color: #fff;
   margin-bottom: 20px;
 }
 
 #home-btn {
+  /* Home button styling */
   background: #ff007f;
   color: #fff;
   border: none;
@@ -225,9 +253,12 @@ h1 {
 }
 
 #home-btn:hover {
+  /* Hover effect for the home button */
   background: #d9006e;
 }
+
 .registration-container {
+  /* Layout for the registration form */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -241,16 +272,19 @@ h1 {
 }
 
 .registration-container h1 {
+  /* Registration form heading */
   color: #fff;
   margin-bottom: 20px;
 }
 
 .registration-container form {
+  /* Flexbox layout for the registration form inputs */
   display: flex;
   flex-direction: column;
 }
 
 .registration-container input {
+  /* Style for form inputs */
   padding: 10px;
   margin: 10px 0;
   width: 100%;
@@ -259,6 +293,7 @@ h1 {
 }
 
 .registration-container button {
+  /* Style for the submit button in the form */
   background: rgb(236, 57, 146);
   color: white;
   border: none;
@@ -273,9 +308,12 @@ h1 {
 }
 
 .registration-container button:hover {
+  /* Hover effect for the registration submit button */
   background: rgb(217, 0, 110);
 }
+
 #congrats-text {
+  /* Text style for congratulations message */
   font-family: 'Nunito', sans-serif;
   color: #ffffff;
   text-align: center;
@@ -283,7 +321,9 @@ h1 {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
 #congrats-video {
+  /* Styling for embedded video */
   width: 100%;
   max-width: 700px;
 }
@@ -347,6 +387,15 @@ h1 {
     font-size: 18px; /* Adjust the size of the restart symbol */
     margin-right: 8px;
   }
+
+  /* **Ensure .btn.correct retains its styling within media queries** */
+  .btn.correct {
+    background: #00b64f; /* Keep the correct answer green on small screens */
+  }
+
+  .btn.incorrect {
+    background: hsl(337, 100%, 43%); /* Style incorrect answers appropriately */
+  }
 }
 
 @media (min-width: 1000px) {
@@ -364,5 +413,14 @@ h1 {
   .restart-symbol {
     font-size: 24px; /* Reset symbol size for larger screens */
     margin-right: 10px;
+  }
+
+  /* Ensure .btn.correct retains its styling on larger screens** */
+  .btn.correct {
+    background: #00b64f; /* Keep the correct answer green on larger screens */
+  }
+
+  .btn.incorrect {
+    background: hsl(337, 100%, 43%); /* Style incorrect answers appropriately */
   }
 }
