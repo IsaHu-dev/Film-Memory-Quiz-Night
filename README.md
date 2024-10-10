@@ -89,7 +89,7 @@
 
 
 
-| Test case                         | Expected Result                                                                     | Test Result |
+| Test Case                         | Expected Result                                                                     | Test Result |
 |-----------------------------------|-----------------------------------------------------------------------              |-------------|
 | Open the Index page               | Index page opens with introduction content and play button                          | ✅ PASS          |
 | Play button hover and click       | Play button directs user to quiz page                                               | ✅ PASS          |
@@ -169,4 +169,4 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 
 ### Acknowledgements
 
-- Thanks to mentor, Moritz Wach for the referral of the README.md example of a user testing graph - as well as PP2 guidance.
+- Thanks to mentor, Moritz Wach for the referral of the README.md example of a user testing table - as well as PP2 guidance.
