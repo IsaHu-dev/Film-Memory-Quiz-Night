@@ -196,7 +196,7 @@ h1 {
 
 /* Incorrect answer styling */
 .incorrect {
-  background: hsl(337, 100%, 43%); /* Bright pink for incorrect answers */
+  background: hsl(337, 100%, 43%); /* Red button for incorrect answers */
 }
 
 /* Result Section */
