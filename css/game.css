@@ -333,8 +333,12 @@ h1 {
   }
 
   /* Adjustments for Restart Button */
+  .restart-container {
+    top: 10px; /* Push the restart button further up for mobile screens */
+  }
+
   #restart-btn {
-    margin-top: 5rem; /* Adjust button margin for smaller screens */
+    margin-top: 1rem; /* Adjust button margin for smaller screens */
     font-size: 14px; /* Make the font size smaller for mobile */
     padding: 6px 14px; /* Adjust padding for smaller screens */
   }
@@ -348,6 +352,10 @@ h1 {
 @media (min-width: 1000px) {
   /* Styles for larger screens */
   
+  .restart-container {
+    top: 20px; /* Reset position for larger screens */
+  }
+
   #restart-btn {
     font-size: 16px; /* Reset font size for larger screens */
     padding: 8px 18px;
