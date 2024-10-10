@@ -1,12 +1,14 @@
 # Film Memory Quiz Night
 
-Pitch: Welcome to Film Memory Quiz Night, a fun and engaging game designed to challenge your memory and sharpen your mind after a busy day! Suitable for all ages, from young learners to adults looking to keep their memory strong, this game offers an enjoyable way to relax in the evening while exercising your cognitive abilities.
+## Pitch
 
- Film Memory Quiz Night is designed to be played in the evening. It allows you to relax, reflect, and reminisce about films after a full day of activities. With a mix of fun questions and visual prompts, this game is not only entertaining but also a great way to keep your mind active. Try it tonight and enjoy a refreshing brain challenge!
+ - Welcome to Film Memory Quiz Night, a fun and engaging game designed to challenge your memory and sharpen your mind after a busy day! Suitable for all ages, from young learners to adults looking to keep their memory strong, this game offers an enjoyable way to relax in the evening while exercising your cognitive abilities.
 
-The Memory Quiz Night is a recreational quiz game where people can test how much they remember about popular movies. It's a great way to enjoy some friendly competition while testing your knowledge and memory on new and old films. Whether you're at home, in a pub, or at a special venue, the quiz is designed to bring people of all ages together to laugh, talk about favourite films, and have a great time. With trivia questions and memorable movie moments, it's perfect for families, couples and social events!
+ - Film Memory Quiz Night is designed to be played in the evening. It allows you to relax, reflect, and reminisce about films after a full day of activities. With a mix of fun questions and visual prompts, this game is not only entertaining but also a great way to keep your mind active. Try it tonight and enjoy a refreshing brain challenge!
 
-The web app works across all platforms, including your mobile device, laptop, and desktop.
+ - The Memory Quiz Night is a recreational quiz game where people can test how much they remember about popular movies. It's a great way to enjoy some friendly competition while testing your knowledge and memory on new and old films. Whether you're at home, in a pub, or at a special venue, the quiz is designed to bring people of all ages together to laugh, talk about favourite films, and have a great time. With trivia questions and memorable movie moments, it's perfect for families, couples and social events!
+
+ - The web app works across all platforms, including your mobile device, laptop, and desktop.
 
 ## Features 
 
@@ -31,13 +33,13 @@ The web app works across all platforms, including your mobile device, laptop, an
 
 - __Real-Time Scoring and Results__
 
-  - The quiz includes a real-time scoring system that tracks how many correct answers a player has given. At the end of the quiz, the player's score and percentage are displayed in a result section, providing clear feedback on performance.
+  The quiz includes a real-time scoring system that tracks the number of correct answers a player has given. At the end of the quiz, the player's score and percentage are displayed in a result section, providing clear feedback on performance.
 
 ![REALTIME SCORE](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/results.png)
 
 - __Registration and Score Submission__
 
-  - Once the quiz is completed, participants can register their scores through a "Register & Send Score" button. This feature redirects users to a registration page, allowing them to input their details and submit their final score and percentage. They can register and submit via a registration form to their email address. This is a great takeaway to keep your scores as part of a memorable experience.
+  - Once the quiz is completed, participants can register their scores through a "Register & Send Score" button. This feature redirects users to a registration page, allowing them to input their details and submit their final score and percentage. They can register and submit via a registration form to their email address. This is a great takeaway to keep your scores as part of a memorable experience. It is also an excellent way to increase your subscriber base so more people can join the quiz game.
 
 ![REGISTRATION PAGE](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/register.png)
 
@@ -63,7 +65,7 @@ The web app works across all platforms, including your mobile device, laptop, an
 
 - __UX DESIGN__
 
-  I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The interactive elements (i.e., the buttons) are visually distinct, making it easy for users to interact with the application. 
+ I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The interactive elements (i.e., the buttons) are visually distinct, making it easy for users to interact with the application. 
 
   - The Colour Palette - consisting of a combination of neutral, vibrant, and contrasting colours - supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) and Charcoal (333) keeps the palette balanced, when placed next to the pink shades. It offers excellent readability when paired with lighter text and enhance clarity.
   
@@ -167,5 +169,4 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 
 ### Acknowledgements
 
-- Thanks to mentor, Moritz Wach for the referral of the README.md example of a user testing graph.
-- Thanks to my cat Ophie, who sat patiently beside me whilst I was coding.
+- Thanks to mentor, Moritz Wach for the referral of the README.md example of a user testing graph - as well as PP2 guidance.
