@@ -415,7 +415,7 @@ h1 {
     margin-right: 10px;
   }
 
-  /* Ensure .btn.correct retains its styling on larger screens** */
+  /*.btn.correct retains its styling on larger screens** */
   .btn.correct {
     background: #00b64f; /* Keep the correct answer green on larger screens */
   }
