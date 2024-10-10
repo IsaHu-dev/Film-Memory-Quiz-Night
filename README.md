@@ -90,7 +90,7 @@
   - Additionally, the real-time scoring and final result display were accurate in each environment. The application's responsive design also adapted well to different screen sizes, ensuring a smooth experience on both desktop and mobile browsers. This confirms that the web application is fully compatible and operates reliably across all major browsers.
 
  | Testcase                          | Expected Result                                                       | Test Result |
-|-----------------------------------|-----------------------------------------------------------------------|-------------|
+|-----------------------------------|------------------------------------------------------------------------------------|
 | Open the Homepage                 | Index page opens with introduction content and play button                          | ✅ PASS  |
 | Play button hover and click       | Play button directs user to quiz page                                               | ✅ PASS  |
 | Questions load on landing page    | Questions and answer buttons load                                                   | ✅ PASS  |
@@ -101,7 +101,7 @@
 | Congratulations page              | If the score result is over 70%. The congratulations text appears                   | ✅ PASS  |
 | Registration page                 | The user can register their email at the end of the quiz                            | ✅ PASS  |
 | Submit score via a html form      | A valid email is recorded and the submit button will email the scores to the user   | ✅ PASS  |
-
+|-----------------------------------|------------------------------------------------------------------------------------|
 
 ## Accessibility
 

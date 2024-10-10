@@ -288,7 +288,7 @@ h1 {
   max-width: 700px;
 }
 
-  /*MEDIA QUERY*/
+ /*MEDIA QUERY*/
 @media (min-width: 320px) and (max-width: 1000px) {
   /* Adjustments for smaller screens */
   
@@ -332,10 +332,29 @@ h1 {
     max-width: 90%;
   }
 
+  /* Adjustments for Restart Button */
   #restart-btn {
     margin-top: 5rem; /* Adjust button margin for smaller screens */
-    font-size: 14px;
-    padding: 6px 14px;
+    font-size: 14px; /* Make the font size smaller for mobile */
+    padding: 6px 14px; /* Adjust padding for smaller screens */
   }
 
+  .restart-symbol {
+    font-size: 18px; /* Adjust the size of the restart symbol */
+    margin-right: 8px;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* Styles for larger screens */
+  
+  #restart-btn {
+    font-size: 16px; /* Reset font size for larger screens */
+    padding: 8px 18px;
+  }
+
+  .restart-symbol {
+    font-size: 24px; /* Reset symbol size for larger screens */
+    margin-right: 10px;
+  }
 }
