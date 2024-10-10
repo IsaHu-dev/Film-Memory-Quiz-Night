@@ -8,8 +8,6 @@
 
  - The Memory Quiz Night is a recreational quiz game where people can test how much they remember about popular movies. It's a great way to enjoy some friendly competition while testing your knowledge and memory on new and old films. Whether you're at home, in a pub, or at a special venue, the quiz is designed to bring people of all ages together to laugh, talk about favourite films, and have a great time. With trivia questions and memorable movie moments, it's perfect for families, couples and social events!
 
- - The web app works across all platforms, including your mobile device, laptop, and desktop.
-
 ## Features 
 
 - The Film Memory Quiz Night is designed with a clean and intuitive interface using HTML, CSS, and JavaScript, making it easy for users of all ages to engage. The interface presents questions and answers clearly, with easy-to-use buttons for selecting answers and navigating through the quiz.
