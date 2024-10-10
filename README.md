@@ -16,8 +16,8 @@
 
 - __Restart Functionality__
 
- The quiz includes a handy "Restart Game" button that allows players to reset and start over at any point during the quiz. This option allows participants to retry or play multiple times, enhancing the overall ease of restarting the game.
- - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the 'back' button. 
+   - The quiz includes a handy "Restart Game" button that allows players to reset and start over at any point during the quiz. This option allows participants to retry or play multiple times, enhancing the overall ease of restarting the game.
+   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the 'back' button. 
 
 ![RESTART](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/restart.png)
 
@@ -31,7 +31,7 @@
 
 - __Real-Time Scoring and Results__
 
-  The quiz includes a real-time scoring system that tracks the number of correct answers a player has given. At the end of the quiz, the player's score and percentage are displayed in a result section, providing clear feedback on performance.
+   - The quiz includes a real-time scoring system that tracks the number of correct answers a player has given. At the end of the quiz, the player's score and percentage are displayed in a result section, providing clear feedback on performance.
 
 ![REALTIME SCORE](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/results.png)
 
@@ -63,13 +63,13 @@
 
 - __UX DESIGN__
 
- I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The interactive elements (i.e., the buttons) are visually distinct, making it easy for users to interact with the application. 
+   - I have provided principles of good UX design. It provides a clean, intuitive interface with clear navigation and visual feedback. The layout is simple and user-friendly, ensuring that users can easily follow the flow of the quiz, from answering questions to viewing their results. The interactive elements (i.e., the buttons) are visually distinct, making it easy for users to interact with the application. 
 
-  - The Colour Palette - consisting of a combination of neutral, vibrant, and contrasting colours - supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) and Charcoal (333) keeps the palette balanced, when placed next to the pink shades. It offers excellent readability when paired with lighter text and enhance clarity.
+   - The Colour Palette - consisting of a combination of neutral, vibrant, and contrasting colours - supports good UX design in several ways. Dark tones like "Extra Black" (222222) and "Extra Black" (181A20) and Charcoal (333) keeps the palette balanced, when placed next to the pink shades. It offers excellent readability when paired with lighter text and enhance clarity.
   
-  - Bright accent colors such as "Deep Pink" (DF0B75) and "Dragonfruit" (EB59A2) draw attention to critical actions or alerts, improving user engagement. Together, this palette supports user-friendly interactions by balancing readability, visual emphasis, and emotional appeal, creating a seamless and intuitive experience.
+   - Bright accent colors such as "Deep Pink" (DF0B75) and "Dragonfruit" (EB59A2) draw attention to critical actions or alerts, improving user engagement. Together, this palette supports user-friendly interactions by balancing readability, visual emphasis, and emotional appeal, creating a seamless and intuitive experience.
 
-  - Additionally, the high contrast between buttons and their backgrounds ensures that they are accessible to a wide range of users, including those with visual impairments, by adhering to accessibility guidelines. 
+   - Additionally, the high contrast between buttons and their backgrounds ensures that they are accessible to a wide range of users, including those with visual impairments, by adhering to accessibility guidelines. 
 
 ![Colour Swatch](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/colourswatch.png)
 
