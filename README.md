@@ -149,7 +149,7 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
   
   - Javascript resources https://javascript.info/, [FreeCodeCamp](https://www.freecodecamp.org/learn/) - free course
   
-  - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) - git free course.
+  - Learning Javascript book. Third Edition. O'Reilly. Author Ethan Brown. [FreeCodeCamp](https://www.freecodecamp.org/learn/) 
 
   - CSS resource - flex box code ideas. [CSS Tricks](https://css-tricks.com/dont-overthink-flexbox-grids/)
 
