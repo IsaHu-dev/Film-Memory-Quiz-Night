@@ -55,7 +55,7 @@
 
 - __Interactive Result Screen__
 
-  - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again, enhancing engagement. 
+  - After completing the quiz, players are directed to a result screen that shows their performance, including their final score and percentage. Players can either choose to register their score or play again.
   
   - At the last stage of designing the web application, a congratulations page is included for users who score over 70%. An animation displaying confetti is added as visual simuli to congratulate the winner!
 
