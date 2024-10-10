@@ -161,8 +161,8 @@ The live link can be found here - [Deployed link](https://isahu-dev.github.io/Fi
 
 ### Media
 
-- Vector Graphics used as image cards are from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
-- Confetti animation video is from Vecteezy. [Vecteezy](https://tinyurl.com/y4bx6umt) 
+- Vector Graphics used as image cards are from royalty free Vecteezy.  [Vecteezy](https://tinyurl.com/y4bx6umt) 
+- Confetti animation video is from royalty free Vecteezy.  [Vecteezy](https://tinyurl.com/y4bx6umt) 
 - I created my own artwork for the Pulp Fiction image cards.
 - Colour swatch is adapted from [Coolors](https://coolors.co/222222-181a20-5dbea3-ec3992-d9006e)
 - The README.md template is adapted from the Love Running README.md. 
