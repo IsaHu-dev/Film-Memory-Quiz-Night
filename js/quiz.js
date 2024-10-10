@@ -24,7 +24,7 @@ function startQuiz() {
 function showQuestion() {
     resetState();  // Reset the buttons and image for the new question
     let currentQuestion = questions[currentQuestionIndex];  // Get the current question data
-    let questionNo = currentQuestionIndex + 1;  // Question number (1-based index)
+    let questionNo = currentQuestionIndex + 1;  // Question number 
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;  // Display question text
 
     // Create buttons for each answer option
@@ -32,7 +32,7 @@ function showQuestion() {
         const button = document.createElement("button");
         button.innerHTML = answer.text;  // Set button text
         button.classList.add("btn");  // Add a CSS class to style the button
-        answerButtons.appendChild(button);  // Add button to the DOM
+        answerButtons.appendChild(button);  
 
         if (answer.correct) {
             button.dataset.correct = answer.correct;  // Mark correct answers
