@@ -338,7 +338,7 @@ h1 {
   }
 
   #restart-btn {
-    margin-top: 1rem; /* Adjust button margin for smaller screens */
+    margin-top: 1.2rem; /* Adjust button margin for smaller screens */
     font-size: 14px; /* Make the font size smaller for mobile */
     padding: 6px 14px; /* Adjust padding for smaller screens */
   }
