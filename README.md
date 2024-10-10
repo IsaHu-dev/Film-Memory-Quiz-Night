@@ -73,7 +73,7 @@
 
 ![Colour Swatch](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/colourswatch.png)
 
-- __Summary__
+ ## Summary
 
   - The Film Memory Quiz Night offers an engaging and interactive experience with features like real-time feedback, visual elements, scoring systems, and seamless navigation. Whether you're playing on a mobile device or desktop, the quiz provides an accessible, fun, and challenging environment for movie lovers to test their knowledge and enjoy a game night with friends or family.
 
