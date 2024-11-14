@@ -1,332 +1,333 @@
 * {
-  /* Reset margin and padding, set a base font-family, and ensure consistent box sizing */
-  margin: 0;
-  padding: 0;
-  font-family: 'Nunito', sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  /* Set a dark background, center content both horizontally and vertically */
-  background: #181A20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  position: relative; /* Required for absolute positioning of other elements */
-}
-
-.hero {
-  /* Flexbox layout to stack content vertically and center items */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #222; /* Dark background for the hero section */
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin: 0 auto;
-}
-
-@media (max-width: 1240px) {
-  .hero {
-    width: 90%; /* Keep hero box centered and prevent stretching on smaller screens */
-    max-width: 500px;
+    /* Reset margin and padding, set a base font-family, and ensure consistent box sizing */
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
   }
-}
-
-@media (min-width: 1233px) {
-  .hero {
-    width: auto;
-    max-width: 600px; /* Ensure it doesn’t overlap with the restart button */
+  
+  body {
+    /* Set a dark background, center content both horizontally and vertically */
+    background: #181A20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative; /* Required for absolute positioning of other elements */
   }
-}
-
-/* Position the Restart Button outside of .hero and in the top-left corner of the page */
-.restart-container {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
-#restart-btn {
-  /* Style the restart button with dark background and light text */
-  background: #333;
-  color: #ffffff;
-  border: none;
-  font-weight: 800; /* Bold font for emphasis */
-  padding: 8px 18px;
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer;
-  font-size: 16px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  transition: all 0.3s; /* Smooth transition on hover */
-}
-
-#restart-btn:hover {
-  /* Hover effect for the restart button */
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  transition: all 0.3s;
-}
-
-.restart-symbol {
-  font-size: 24px;
-  margin-right: 10px;
-}
-
-.image-container {
-  /* Center the image and add spacing below */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-#answer-image {
-  /* Image styling to fit within the container with rounded edges */
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-h1 {
-  /* Heading styling: white color, centered text, and large font size */
-  color: #fff;
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.quiz {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 40px;
-  width: 100%;
-}
-
-#question {
-  width: 100%;
-  justify-content: left;
-  color: #cccccc;
-  font-size: 26px;
-  margin-bottom: 40px;
-}
-
-#answer-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 400px;
-  margin-top: 20px;
-}
-
-.btn {
-  background: rgb(223, 11, 117);
-  color: white;
-  border: none;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  width: 100%;
-  max-width: 300px;
-  text-align: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s;
-}
-
-.btn:hover {
-  background: rgb(235, 89, 162);
-}
-
-#next-btn {
-  background: #000000;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  width: 100px;
-  border: 0;
-  padding: 10px;
-  margin: 20px auto 0;
-  border-radius: 4px;
-  cursor: pointer;
-  display: none;
-  text-align: center;
-  transition: all 0.6s;
-}
-
-#register-btn {
-  background: rgb(236, 57, 146);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 0.3s;
-  text-align: center;
-}
-
-#register-btn:hover {
-  background: rgb(217, 0, 110);
-}
-
-#next-btn:hover {
-  color: #ffffff;
-  border: 1px solid #ffffff;
-}
-
-.correct {
-  background: #00b64f;
-}
-
-.incorrect {
-  background: hsl(337, 100%, 43%);
-}
-
-.result-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #1E1E2F;
-  border: 2px solid #ff007f;
-  border-radius: 10px;
-  padding: 40px;
-  text-align: center;
-  margin-top: 20px;
-  width: 100%;
-  max-width: 600px;
-}
-
-.circle {
-  width: 150px;
-  height: 150px;
-  border: 8px solid #ff007f;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-}
-
-#percentage {
-  font-size: 36px;
-  color: #fff;
-}
-
-#final-score {
-  font-size: 20px;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-#home-btn {
-  background: #ff007f;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin: 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#home-btn:hover {
-  background: #d9006e;
-}
-
-.registration-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #222;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 400px;
-  margin: 20px auto;
-}
-
-.registration-container h1 {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.registration-container form {
-  display: flex;
-  flex-direction: column;
-}
-
-.registration-container input {
-  padding: 10px;
-  margin: 10px 0;
-  width: 100%;
-  border-radius: 5px;
-  border: none;
-}
-
-.registration-container button {
-  background: rgb(236, 57, 146);
-  color: white;
-  border: none;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  width: 100%;
-  max-width: 200px;
-  transition: all 0.3s;
-}
-
-.registration-container button:hover {
-  background: rgb(217, 0, 110);
-}
-
-#congrats-text {
-  font-family: 'Nunito', sans-serif;
-  color: #ffffff;
-  text-align: center;
-  font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-#congrats-video {
-  width: 100%;
-  max-width: 700px;
-}
-
-@media (max-width: 1240px) {
+  
   .hero {
-    width: 90%; /* Keep hero box centered  */
-    max-width: 500px;
+    /* Flexbox layout to stack content vertically and center items */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #222; /* Dark background for the hero section */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
   }
-}
-
-@media (min-width: 1233px) {
-  .hero {
-    width: auto;
-    max-width: 600px; 
+  
+  @media (max-width: 1240px) {
+    .hero {
+      width: 90%; /* Keep hero box centered and prevent stretching on smaller screens */
+      max-width: 500px;
+    }
   }
-}
-
-
+  
+  @media (min-width: 1233px) {
+    .hero {
+      width: auto;
+      max-width: 600px; /* Ensure it doesn’t overlap with the restart button */
+    }
+  }
+  
+  /* Position the Restart Button outside of .hero and in the top-left corner of the page */
+  .restart-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  #restart-btn {
+    /* Style the restart button with dark background and light text */
+    background: #333;
+    color: #ffffff;
+    border: none;
+    font-weight: 800; /* Bold font for emphasis */
+    padding: 8px 18px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s; /* Smooth transition on hover */
+  }
+  
+  #restart-btn:hover {
+    /* Hover effect for the restart button */
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all 0.3s;
+  }
+  
+  .restart-symbol {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .image-container {
+    /* Center the image and add spacing below */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #answer-image {
+    /* Image styling to fit within the container with rounded edges */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    /* Heading styling: white color, centered text, and large font size */
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  #question {
+    width: 100%;
+    justify-content: left;
+    color: #cccccc;
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  
+  #answer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background: rgb(223, 11, 117);
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    background: rgb(235, 89, 162);
+  }
+  
+  #next-btn {
+    background: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    transition: all 0.6s;
+  }
+  
+  #register-btn {
+    background: rgb(236, 57, 146);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s;
+    text-align: center;
+  }
+  
+  #register-btn:hover {
+    background: rgb(217, 0, 110);
+  }
+  
+  #next-btn:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  
+  .correct {
+    background: #00b64f;
+  }
+  
+  .incorrect {
+    background: hsl(337, 100%, 43%);
+  }
+  
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1E1E2F;
+    border: 2px solid #ff007f;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .circle {
+    width: 150px;
+    height: 150px;
+    border: 8px solid #ff007f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  #percentage {
+    font-size: 36px;
+    color: #fff;
+  }
+  
+  #final-score {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #home-btn {
+    background: #ff007f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #home-btn:hover {
+    background: #d9006e;
+  }
+  
+  .registration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .registration-container h1 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .registration-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-container input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .registration-container button {
+    background: rgb(236, 57, 146);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 200px;
+    transition: all 0.3s;
+  }
+  
+  .registration-container button:hover {
+    background: rgb(217, 0, 110);
+  }
+  
+  #congrats-text {
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  #congrats-video {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  @media (max-width: 1240px) {
+    .hero {
+      width: 90%; /* Keep hero box centered  */
+      max-width: 500px;
+    }
+  }
+  
+  @media (min-width: 1233px) {
+    .hero {
+      width: auto;
+      max-width: 600px; /* Ensure it doesn’t overlap with the restart button */
+    }
+  }
+  
+  
+  

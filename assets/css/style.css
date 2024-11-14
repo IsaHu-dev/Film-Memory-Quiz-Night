@@ -1,86 +1,86 @@
 /* Global Styles */
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Nunito', sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background: #181A20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-}
-
-/* Intro Section */
-.intro-hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #222;
-  padding: 40px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 800px;
-}
-
-/* Title */
-h1 {
-  color: #fff;
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-/* Paragraph Styling */
-p, .description {
-  color: #ccc;
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-p {
-  font-size: 18px;
-}
-
-.description {
-  font-size: 20px;
-  line-height: 2rem;
-}
-
-/* Button Styling */
-.play-btn {
-  background: rgb(223, 11, 117);
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  margin-top: 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-  transition: all 0.3s;
-}
-
-.play-btn:hover {
-  background: rgb(235, 89, 162);
-}
-
-/* Media Query for screens between 320px and 1000px */
-@media (min-width: 320px) and (max-width: 1000px) {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #181A20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* Intro Section */
   .intro-hero {
-    padding: 15px;
-    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
   }
-
+  
+  /* Title */
   h1 {
-    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
   }
-
+  
+  /* Paragraph Styling */
   p, .description {
-    font-size: 16px;
+    color: #ccc;
+    text-align: left;
+    margin-bottom: 30px;
   }
-}
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .description {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  
+  /* Button Styling */
+  .play-btn {
+    background: rgb(223, 11, 117);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s;
+  }
+  
+  .play-btn:hover {
+    background: rgb(235, 89, 162);
+  }
+  
+  /* Media Query for screens between 320px and 1000px */
+  @media (min-width: 320px) and (max-width: 1000px) {
+    .intro-hero {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    p, .description {
+      font-size: 16px;
+    }
+  }
