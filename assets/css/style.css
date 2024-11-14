@@ -88,8 +88,8 @@ p {
   }
 
   .play-btn {
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 8px 16px;
+    font-size: 12px;
   }
 }
 
@@ -110,8 +110,8 @@ p {
   }
 
   .play-btn {
-    padding: 12px 25px;
-    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 14px;
   }
 }
 
@@ -132,8 +132,8 @@ p {
   }
 
   .play-btn {
-    padding: 14px 28px;
-    font-size: 17px;
+    padding: 12px 25px;
+    font-size: 16px;
   }
 }
 
