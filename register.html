@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register to Send Score</title>
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="assets/css/register.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,20 +26,7 @@
   </form>
 </div>
 
-<script>
-  // Extract score and percentage from URL and populate the form
-  function getQueryParams() {
-    const params = new URLSearchParams(window.location.search);
-    const score = params.get('score');
-    const percentage = params.get('percentage');
-    
-    document.getElementById('score').value = `Score: ${score}/10`;
-    document.getElementById('percentage').value = `Percentage: ${percentage}`;
-  }
-  
-  // Populate the form when the page loads
-  window.onload = getQueryParams;
-</script>
+<script src="assets/js/next.js"></script>
 
 </body>
 </html>

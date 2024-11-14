@@ -1,4 +1,4 @@
-// Get elements from the DOM (Document Object Model) using their IDs
+// Assign DOM elements to constants in the global scope
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -7,137 +7,124 @@ const percentageElement = document.getElementById("percentage");
 const finalScoreElement = document.getElementById("final-score");
 const homeButton = document.getElementById("home-btn");
 const answerImage = document.getElementById("answer-image");
+const titleElement = document.querySelector(".hero h1");
+const heroElement = document.querySelector('.hero');
+const registerButton = document.getElementById('register-btn');
+const videoElement = document.getElementById('congrats-video');
+const videoSource = document.getElementById('video-source');
+const congratsText = document.getElementById('congrats-text');
 
-let currentQuestionIndex = 0;  // Tracks the current question index
-let score = 0;  // Tracks the score of the user
+let currentQuestionIndex = 0;
+let score = 0;
 
 // Initialize Quiz
 function startQuiz() {
-    currentQuestionIndex = 0;  // Reset question index
-    score = 0;  // Reset score
-    answerImage.style.display = "none";  // Hide the image
-    nextButton.innerHTML = "Next";  // Set the button text
-    showQuestion();  // Display the first question
+    currentQuestionIndex = 0;
+    score = 0;
+    answerImage.style.display = "none";
+    nextButton.innerHTML = "Next";
+    showQuestion();
 }
 
-// Display the current question
+// Display the current question and generate answer buttons
 function showQuestion() {
-    resetState();  // Reset the buttons and image for the new question
-    let currentQuestion = questions[currentQuestionIndex];  // Get the current question data
-    let questionNo = currentQuestionIndex + 1;  // Question number 
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;  // Display question text
+    resetState();
+    const currentQuestion = questions[currentQuestionIndex];
+    const questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = `${questionNo}. ${currentQuestion.question}`;
 
-    // Create buttons for each answer option
     currentQuestion.answers.forEach((answer) => {
         const button = document.createElement("button");
-        button.innerHTML = answer.text;  // Set button text
-        button.classList.add("btn");  // Add a CSS class to style the button
-        answerButtons.appendChild(button);  
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
 
         if (answer.correct) {
-            button.dataset.correct = answer.correct;  // Mark correct answers
-            button.dataset.image = currentQuestion.image;  // Associate the image with the correct answer
+            button.dataset.correct = answer.correct;
+            button.dataset.image = currentQuestion.image;
         }
 
-        // Add a click event to handle answer selection
         button.addEventListener("click", selectAnswer);
     });
 }
 
-// Reset the buttons and other UI elements for the next question
+// Reset UI for the next question
 function resetState() {
-    nextButton.style.display = "none";  // Hide next button initially
+    nextButton.style.display = "none";
     while (answerButtons.firstChild) {
-        answerButtons.removeChild(answerButtons.firstChild);  // Clear previous answer buttons
+        answerButtons.removeChild(answerButtons.firstChild);
     }
-    answerImage.style.display = "none";  // Hide the image
-    const titleElement = document.querySelector(".hero h1");
-    titleElement.style.marginTop = "0px";  // Reset margin for the question title
+    answerImage.style.display = "none";
+    titleElement.style.marginTop = "0px";
 }
 
-// Handle the selection of an answer
+// Handle answer selection and disable buttons after selection
 function selectAnswer(e) {
-    const selectedBtn = e.target;  // The button that was clicked
-    const isCorrect = selectedBtn.dataset.correct === "true";  // Check if the selected answer is correct
-    const titleElement = document.querySelector(".hero h1");
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
 
     if (isCorrect) {
-        selectedBtn.classList.add("correct");  // Style the correct answer
-        score++;  // Increase score for a correct answer
-        answerImage.src = selectedBtn.dataset.image;  // Display the associated image
-        answerImage.style.display = "block";  // Show the image
-        titleElement.style.marginTop = "100px";  // Adjust margin for the image
+        selectedBtn.classList.add("correct");
+        score++;
+        answerImage.src = selectedBtn.dataset.image;
+        answerImage.style.display = "block";
+        titleElement.style.marginTop = "100px";
     } else {
-        selectedBtn.classList.add("incorrect");  // Style the incorrect answer
+        selectedBtn.classList.add("incorrect");
     }
 
-    // Disable all buttons after selection
     Array.from(answerButtons.children).forEach((button) => {
         if (button.dataset.correct === "true") {
-            button.classList.add("correct");  // Highlight the correct answer
+            button.classList.add("correct");
         }
-        button.disabled = true;  // Disable buttons to prevent multiple selections
+        button.disabled = true;
     });
 
-    nextButton.style.display = "block";  // Show the next button to proceed
+    nextButton.style.display = "block";
 }
 
-// Show the final score and play a congratulatory video if the score is high
+// Display the final score and optional video for high scores
 function showScore() {
-    questionElement.parentElement.style.display = "none";  // Hide the question section
-    resultContainer.style.display = "flex";  // Display the results section
+    questionElement.parentElement.style.display = "none";
+    resultContainer.style.display = "flex";
 
-    const scorePercent = Math.round((score / questions.length) * 100);  // Calculate score percentage
-
-    // Display the score and percentage
+    const scorePercent = Math.round((score / questions.length) * 100);
     finalScoreElement.innerHTML = `Your Score ${score} out of ${questions.length}`;
     percentageElement.innerHTML = `${scorePercent}%`;
 
-    // Adjust the layout for final score
-    const heroElement = document.querySelector('.hero');
     heroElement.style.height = "1090px";
-    heroElement.style.marginTop = "110px";  
+    heroElement.style.marginTop = "110px";
+    registerButton.style.display = 'block';
 
-    document.getElementById('register-btn').style.display = 'block';  // Show the register button
-
-    // Get elements for congratilations video
-    const videoElement = document.getElementById('congrats-video');
-    const videoSource = document.getElementById('video-source');
-    const congratsText = document.getElementById('congrats-text');
-
-    if (scorePercent >= 70) {  // If the user scored 70% or higher
-        answerImage.style.display = "none";  // Hide the image
-        videoSource.src = "videos/confetti.mp4";  // Set video source to play confetti animation
-        videoElement.style.display = "block";  // Show the video
-        videoElement.load();  // Load the video
-        videoElement.play();  // Optionally auto-play the video
-        congratsText.style.display = "block";  // Show congratulations text
+    if (scorePercent >= 70) {
+        answerImage.style.display = "none";
+        videoSource.src = "videos/confetti.mp4";
+        videoElement.style.display = "block";
+        videoElement.load();
+        videoElement.play();
+        congratsText.style.display = "block";
     } else {
-        // Hide video and text if score is below 70%
         answerImage.style.display = "none";
         videoElement.style.display = "none";
         congratsText.style.display = "none";
     }
 }
 
-// Handle the Next button click to show the next question or final score
+// Handle the Next button to show the next question or final score
 function handleNextButton() {
-    currentQuestionIndex++;  // Move to the next question
+    currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
-        showQuestion();  // Show the next question if available
+        showQuestion();
     } else {
-        showScore();  // Otherwise, show the final score
+        showScore();
     }
 }
 
 // Event Listeners for button clicks
-nextButton.addEventListener("click", () => {
-    handleNextButton();  // Handle clicking the Next button
-});
-
+nextButton.addEventListener("click", handleNextButton);
 homeButton.addEventListener("click", () => {
-    window.location.href = "index.html";  // Redirect to the home page
+    window.location.href = "index.html";
 });
 
-// Start the quiz when the page loads
+// Start the quiz on page load
 startQuiz();

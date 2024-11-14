@@ -1,88 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film Memory Quiz Game</title>
-    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="assets/css/game.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <!-- Restart Button (Outside .hero) -->
-<div class="restart-container">
-  <button id="restart-btn" class="btn">
-    <span class="restart-symbol">&#8634;</span>
-    RESTART GAME
-  </button>
-</div>
+<header>
+  <div class="restart-container">
+    <button id="restart-btn" class="btn">
+      <span class="restart-symbol">&#8634;</span> RESTART GAME
+    </button>
+  </div>
+</header>
 
 <main class="hero">
-  <h1>Film Memory Quiz</h1>
-  
-  <!-- Image Placeholder -->
-  <figure class="image-container">
-    <img id="answer-image" src="images/dummy.png" alt="Answer Image" style="display: none;">
-  </figure>
-  
-  <!-- Quiz Section -->
-  <div class="quiz">
-    <h2 id="question">Question goes here</h2>
-    <div id="answer-buttons">
-      <button class="btn">Choice 1</button>
-      <button class="btn">Choice 2</button>
-      <button class="btn">Choice 3</button>
-      <button class="btn">Choice 4</button>
-      <button class="btn">Choice 5</button>
-      <button class="btn">Choice 6</button>
-      <button class="btn">Choice 7</button>
-      <button class="btn">Choice 8</button>
-      <button class="btn">Choice 9</button>
-      <button class="btn">Choice 10</button>
-    </div>
-    <button id="next-btn">Next</button>
-  </div>
+    <h1>Film Memory Quiz</h1>
+    
+    <!-- Image Placeholder -->
+    <section class="image-container">
+      <figure>
+        <img id="answer-image" src="assets/images/dummy.png" alt="Answer Image" style="display: none;">
+      </figure>
+    </section>
+    
+    <!-- Quiz Section -->
+    <section class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons">
+            <button class="btn">Choice 1</button>
+            <button class="btn">Choice 2</button>
+            <button class="btn">Choice 3</button>
+            <button class="btn">Choice 4</button>
+            <button class="btn">Choice 5</button>
+            <button class="btn">Choice 6</button>
+            <button class="btn">Choice 7</button>
+            <button class="btn">Choice 8</button>
+            <button class="btn">Choice 9</button>
+            <button class="btn">Choice 10</button>
+        </div>
+        <button id="next-btn">Next</button>
+    </section>
 
-  <!-- Quiz Result Section -->
-  <div class="result-container" id="result-container" style="display: none;">
-    <!-- Video and Congratulations Text -->
-    <div class="media-container">
-      <video id="congrats-video" style="display: none; width: 100%;" controls>
-        <source id="video-source" src="videos/confetti.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <h2 id="congrats-text" style="display: none;">Congratulations, You’re a Winner!</h2>
-    </div>
+    <!-- Quiz Result Section -->
+    <section class="result-container" id="result-container" style="display: none;">
+        <!-- Video and Congratulations Text -->
+        <div class="media-container">
+            <video id="congrats-video" style="display: none; width: 100%;" controls>
+                <source id="video-source" src="assets/videos/confetti.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2 id="congrats-text" style="display: none;">Congratulations, You’re a Winner!</h2>
+        </div>
 
-    <!-- Score Information -->
-    <h1>Quiz Result!</h1>
-    <div class="circle">
-      <p id="percentage">0%</p>
-    </div>
-    <p id="final-score">Your Score 0 out of 6</p>
-    <button id="register-btn" class="btn">Register & Send Score</button>
-    <button id="home-btn" class="btn">Go Again!</button>
-  </div>
+        <!-- Score Information -->
+        <h1>Quiz Result!</h1>
+        <div class="circle">
+            <p id="percentage">0%</p>
+        </div>
+        <p id="final-score">Your Score 0 out of 6</p>
+        <button id="register-btn" class="btn">Register & Send Score</button>
+        <button id="home-btn" class="btn">Go Again!</button>
+    </section>
 </main>
 
-<!-- Load questions.js first -->
-<script src="js/questions.js"></script>
-<!-- Then load quiz.js to ensure questions are accessible -->
-<script src="js/quiz.js"></script>
+<footer>
+    <!-- Load questions.js first -->
+    <script src="assets/js/questions.js"></script>
+    <!-- Then load quiz.js to ensure questions are accessible -->
+    <script src="assets/js/quiz.js"></script>    
+    <script src="assets/js/restart.js"></script>
+    <script src="assets/js/register.js"></script>
 
-<script>
-  // Function to restart the quiz
-  document.getElementById('restart-btn').addEventListener('click', function() {
-    window.location.reload();  // Reload the page to restart the quiz
-  });
+</footer>
 
-  // Function to redirect to registration page with score and percentage as query parameters
-  document.getElementById('register-btn').addEventListener('click', function() {
-    const score = document.getElementById('final-score').textContent.match(/\d+/g)[0];
-    const percentage = document.getElementById('percentage').textContent;
-    window.location.href = `register.html?score=${score}&percentage=${percentage}`;
-  });
-</script>
 
 </body>
 </html>

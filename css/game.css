@@ -51,7 +51,6 @@ body {
   text-align: center;
   display: flex;
   align-items: center;
-  margin-top: 11rem; /* Push the button down */
   transition: all 0.3s; /* Smooth transition on hover */
 }
 
@@ -328,73 +327,65 @@ h1 {
   max-width: 700px;
 }
 
- /*MEDIA QUERY*/
-@media (min-width: 320px) and (max-width: 1000px) {
-  /* Adjustments for smaller screens */
-  
+/* Adjustments for screens between 200px and 1240px */
+@media (min-width: 200px) and (max-width: 1240px) {
   .hero {
-    padding: 10px;
-    max-width: 90%;
+    padding: 8px;
+    max-width: 100%;
   }
 
   h1 {
-    font-size: 24px; /* Make the title smaller */
-    margin-bottom: 15px;
+    font-size: 20px; /* Make the title smaller */
+    margin-bottom: 10px;
   }
 
   #answer-buttons {
     max-width: 100%;
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   .btn {
-    font-size: 14px; /* Smaller font for buttons */
-    padding: 10px;
+    font-size: 12px; /* Smaller font for buttons */
+    padding: 8px;
     max-width: 100%;
   }
 
   #next-btn {
-    width: 80px; /* Make the next button smaller */
-    font-size: 14px;
+    width: 70px; /* Make the next button smaller */
+    font-size: 12px;
   }
 
   .circle {
-    width: 120px; /* Adjust result circle size */
-    height: 120px;
-    border-width: 6px;
+    width: 100px; /* Adjust result circle size */
+    height: 100px;
+    border-width: 5px;
   }
 
   #percentage {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .registration-container {
-    max-width: 90%;
+    max-width: 100%;
   }
 
-  /* Adjustments for Restart Button */
+  /* Fix the Restart Button to the top-left corner for screens in this range */
   .restart-container {
-    top: 10px; /* Push the restart button further up for mobile screens */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Ensure it stays on top */
   }
 
   #restart-btn {
-    margin-top: 1.2rem; /* Adjust button margin for smaller screens */
-    font-size: 14px; /* Make the font size smaller for mobile */
-    padding: 6px 14px; /* Adjust padding for smaller screens */
+    margin-top: 0; /* Remove additional margin */
+    font-size: 14px; /* Adjust font size for better readability */
+    padding: 6px 14px; /* Adjust padding */
   }
 
   .restart-symbol {
-    font-size: 18px; /* Adjust the size of the restart symbol */
-    margin-right: 8px;
-  }
-
-  /* **Ensure .btn.correct retains its styling within media queries** */
-  .btn.correct {
-    background: #00b64f; /* Keep the correct answer green on small screens */
-  }
-
-  .btn.incorrect {
-    background: hsl(337, 100%, 43%); /* Style incorrect answers appropriately */
+    font-size: 16px; /* Adjust symbol size */
+    margin-right: 6px;
   }
 }
 
