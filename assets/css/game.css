@@ -32,38 +32,36 @@ body {
   margin: 0 auto;
 }
 
-/* Lower the h1 header */
+/* Push down the h1 header */
 h1 {
   color: #fff;
   text-align: center;
   font-size: 32px;
-  margin-top: 80px; /* Increased top margin to lower the header and avoid overlap */
+  margin-top: 100px; /* Increased top margin to push down header */
   margin-bottom: 20px;
 }
 
 /* Responsive adjustments for hero height between 194px and 1240px */
 @media (min-width: 194px) and (max-width: 1240px) {
   .hero {
-    /* Reduce height of hero container as screen scales between 194px and 895px */
     padding: 15px; 
-    max-height: 120vh; /* Constrain max height */
-    overflow: hidden; /* Prevent overflow if content exceeds container */
+    max-height: 120vh;
+    overflow: hidden;
   }
 
   .image-container {
-    /* Ensure image container scales within hero */
-    max-height: 60vh; /* Adjust for image fit */
+    max-height: 60vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px; /* Push down image container */
   }
 
   #dummy-image {
-    
     width: auto;
-    height: 100%; /* Allow image to fit within container */
-    max-height: 100%; /* Constrain image to container */
+    height: 100%;
+    max-height: 100%;
     object-fit: contain; 
   }
 }
@@ -78,7 +76,7 @@ h1 {
 /* Position the Restart Button higher to avoid overlap with header */
 .restart-container {
   position: absolute;
-  top: 2px; /* Pushed upwards by reducing top position */
+  top: 2px;
   left: 20px;
 }
 
