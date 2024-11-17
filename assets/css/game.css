@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
   position: relative;
   overflow-y: auto; /* Enables vertical scrolling */
@@ -27,9 +27,9 @@ body {
   border-radius: 10px;
   width: 100%;
   max-width: 600px;
-  min-height: 100vh;
+  min-height: 70vh; 
   margin: 0 auto;
-  margin-top: 50px; /* Pushes the container up */
+  margin-top: 50px; /* Adjust the top margin as needed */
 }
 
 h1 {

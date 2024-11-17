@@ -61,7 +61,6 @@ function resetState()
 		answerButtons.removeChild(answerButtons.firstChild);
 	}
 	answerImage.style.display = "none";
-	titleElement.style.marginTop = "0px";
 }
 
 // Handle answer selection and disable buttons after selection
@@ -76,7 +75,7 @@ function selectAnswer(e)
 		score++;
 		answerImage.src = selectedBtn.dataset.image;
 		answerImage.style.display = "block";
-		titleElement.style.marginTop = "100px";
+		titleElement.style.marginTop = "60px";
 	}
 	else
 	{
