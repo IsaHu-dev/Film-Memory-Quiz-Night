@@ -185,7 +185,7 @@ h1 {
 }
 
 .incorrect {
-  background: hsl(337, 100%, 43%);
+  background: hsl(337, 100%, 37%);
 }
 
 .result-container {
@@ -301,4 +301,12 @@ h1 {
   width: 100%;
   max-width: 700px;
 }
+@media screen and (min-width: 320px) and (max-width: 1240px) {
+  .correct {
+    background: #00b64f; /* Ensure green color for correct answers */
+  }
 
+  .incorrect {
+    background: hsl(337, 100%, 37%); /* Ensure red color for incorrect answers */
+  }
+}
