@@ -10,13 +10,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 60vh;
   width: 100%;
   position: relative;
   overflow-y: auto; /* Enables vertical scrolling */
   -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
 }
-
 .hero {
   display: flex;
   flex-direction: column;
@@ -27,16 +26,16 @@ body {
   border-radius: 10px;
   width: 100%;
   max-width: 600px;
-  min-height: 70vh; 
+  min-height: 40vh; /* Resduced min-height to make the box shorter */
   margin: 0 auto;
-  margin-top: 50px; /* Adjust the top margin as needed */
+  margin-top: 5px; /* Keeps the margin-top consistent */
 }
 
 h1 {
   color: #fff;
   text-align: center;
   font-size: 32px;
-  margin-top: 50px; /* Adjusted for better spacing */
+  margin-top: 40px; /* Adjusted for better spacing */
   margin-bottom: 20px;
 }
 

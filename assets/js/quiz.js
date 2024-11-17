@@ -75,7 +75,7 @@ function selectAnswer(e)
 		score++;
 		answerImage.src = selectedBtn.dataset.image;
 		answerImage.style.display = "block";
-		titleElement.style.marginTop = "60px";
+		titleElement.style.marginTop = "50px";
 	}
 	else
 	{

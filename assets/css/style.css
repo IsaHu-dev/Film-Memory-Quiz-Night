@@ -69,3 +69,28 @@ p {
   background: rgb(235, 89, 162);
 }
 
+/* Responsive Adjustments */
+
+/* For screens between 320px and 480px */
+@media (max-width: 480px) {
+  .play-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+/* For screens between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .play-btn {
+    padding: 12px 25px;
+    font-size: 17px;
+  }
+}
+
+/* For screens between 769px and 1240px */
+@media (min-width: 769px) and (max-width: 1240px) {
+  .play-btn {
+    padding: 14px 28px;
+    font-size: 18px;
+  }
+}
