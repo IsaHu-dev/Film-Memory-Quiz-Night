@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -69,92 +69,3 @@ p {
   background: rgb(235, 89, 162);
 }
 
-/* Media Queries to scale proportionately between 120px and 1240px */
-
-/* Extra Small Screens (120px - 319px) */
-@media (max-width: 319px) {
-  .intro-hero {
-    padding: 10px;
-    max-width: 90%;
-  }
-
-  h1 {
-    font-size: 18px;
-  }
-
-  p, .description {
-    font-size: 12px;
-    line-height: 1.5rem;
-  }
-
-  .play-btn {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
-}
-
-/* Small Screens (320px - 767px) */
-@media (min-width: 320px) and (max-width: 767px) {
-  .intro-hero {
-    padding: 20px;
-    max-width: 90%;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  p, .description {
-    font-size: 14px;
-    line-height: 1.75rem;
-  }
-
-  .play-btn {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-}
-
-/* Medium Screens (768px - 1023px) */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .intro-hero {
-    padding: 30px;
-    max-width: 700px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  p, .description {
-    font-size: 16px;
-    line-height: 1.85rem;
-  }
-
-  .play-btn {
-    padding: 12px 25px;
-    font-size: 16px;
-  }
-}
-
-/* Large Screens (1024px - 1240px) */
-@media (min-width: 1024px) and (max-width: 1240px) {
-  .intro-hero {
-    padding: 35px;
-    max-width: 800px;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  p, .description {
-    font-size: 18px;
-    line-height: 2rem;
-  }
-
-  .play-btn {
-    padding: 15px 30px;
-    font-size: 18px;
-  }
-}
