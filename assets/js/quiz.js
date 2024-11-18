@@ -111,7 +111,7 @@ function showScore()
 	if (scorePercent >= 70)
 	{
 		answerImage.style.display = "none";
-		videoSource.src = "videos/confetti.mp4";
+		videoSource.src = "assets/videos/confetti.mp4";
 		videoElement.style.display = "block";
 		videoElement.load();
 		videoElement.play();
