@@ -12,6 +12,9 @@
 
 - The Film Memory Quiz Night is designed with a clean and intuitive interface using HTML, CSS, and JavaScript, making it easy for users of all ages to engage. The interface presents questions and answers clearly, with easy-to-use buttons for selecting answers and navigating through the quiz.
 
+![FEATURES](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/responsive.png)
+
+
 ### Existing Features
 
 - __Restart Functionality__
@@ -60,6 +63,10 @@
   - At the last stage of designing the web application, a congratulations page is included for users who score over 70%. An animation displaying confetti is added as visual simuli to congratulate the winner!
 
  ![RESULTS SCREEN](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/congrats.png)
+
+ ### Future Features
+ 
+  - For additional features and improvements to the application, I would add a leaderboard feature that allows users to compare their performance with others. This leaderboard would store user data in a database for tracking and comparison.
 
 - __UX DESIGN__
 
