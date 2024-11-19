@@ -1,5 +1,9 @@
 # Film Memory Quiz Night
 
+
+![QUIZINTRO](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/responsive.png)
+
+
 ## Pitch
 
  - Welcome to Film Memory Quiz Night, a fun and engaging game designed to challenge your memory and sharpen your mind after a busy day! Suitable for all ages, from young learners to adults looking to keep their memory strong, this game offers an enjoyable way to relax in the evening while exercising your cognitive abilities.
@@ -11,9 +15,6 @@
 ## Features 
 
 - The Film Memory Quiz Night is designed with a clean and intuitive interface using HTML, CSS, and JavaScript, making it easy for users of all ages to engage. The interface presents questions and answers clearly, with easy-to-use buttons for selecting answers and navigating through the quiz.
-
-![FEATURES](https://github.com/IsaHu-dev/Film-Memory-Quiz-Night/blob/main/media/responsive.png)
-
 
 ### Existing Features
 
