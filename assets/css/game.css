@@ -305,6 +305,6 @@ h1 {
   }
 
   .incorrect {
-    background: hsl(337, 100%, 37%); /* Ensure red color for incorrect answers */
+    background: hsl(337, 97%, 28%); /* Ensure red color for incorrect answers */
   }
 }
